@@ -69,7 +69,7 @@
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init <span class="comment">#初始化hexo博客</span></span><br><span class="line">hexo g <span class="comment">#生成文件</span></span><br><span class="line">hexo s <span class="comment">#启动本地博客</span></span><br></pre></td></tr></table></figure>
 
 <p>执行hexo init时可能出现WARN git clone failed（unable to access）报错，这是因为连接超时了，多试几次，或者魔法全局。成功之后会出现Strat blogging with hexo！</p>
-<p>执行hexo s在本地生成hexo页面，复制出现的<a href="http://localhost:4000/%E9%93%BE%E6%8E%A5%E5%8D%B3%E5%8F%AF%E6%89%93%E5%BC%80%E6%9C%AC%E5%9C%B0%E9%A1%B5%E9%9D%A2%EF%BC%88%E8%BF%99%E9%87%8C%E6%9C%89%E4%B8%AA%E9%97%AE%E9%A2%98%EF%BC%8C%E6%9C%89%E7%9A%84%E5%B0%8F%E4%BC%99%E4%BC%B4%E5%96%9C%E6%AC%A2ctrl+c%E5%A4%8D%E5%88%B6%EF%BC%8C%E4%BD%86%E6%98%AF%E5%9C%A8git%E9%87%8Cctrl+c%E4%BC%9A%E7%BB%88%E6%AD%A2%E5%91%BD%E4%BB%A4%E5%AF%BC%E8%87%B4%E6%89%93%E5%BC%80%E5%A4%B1%E8%B4%A5%EF%BC%8C%E8%BF%99%E9%87%8C%E9%9C%80%E8%A6%81%E5%8F%B3%E9%94%AECopy%E6%88%96Open%EF%BC%89">http://localhost:4000/链接即可打开本地页面（这里有个问题，有的小伙伴喜欢ctrl+c复制，但是在git里ctrl+c会终止命令导致打开失败，这里需要右键Copy或Open）</a></p>
+<p>执行hexo s在本地生成hexo页面，复制出现的<code>http://localhost:4000/</code>链接即可打开本地页面（这里有个问题，有的小伙伴喜欢ctrl+c复制，但是在git里ctrl+c会终止命令导致打开失败，这里需要右键Copy或Open）</p>
 <h2 id="上传Hexo博客到Github"><a href="#上传Hexo博客到Github" class="headerlink" title="上传Hexo博客到Github"></a>上传Hexo博客到Github</h2><p>在blog文件夹下，打开<strong>config.yml</strong>,在最下面添加以下代码（注在<code>：</code>后面需打一个空格）</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line"></span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line"></span><br><span class="line">  repository:https://github.com/你的名字/仓库的名字.git</span><br><span class="line"></span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
 
@@ -78,7 +78,7 @@
 <p>成功之后执行</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g #生成文件</span><br><span class="line">hexo d # 上传到github</span><br></pre></td></tr></table></figure>
 <p>成功之后，Github仓库会出现很多东西，现在就可以用我们xxxxxx.github.io来打开我们的博客了</p>
-<h2 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h2><p>进入hexo[官网]（<a href="https://hexo.io/themes/%EF%BC%89%E6%89%BE%E5%88%B0%E8%87%AA%E5%B7%B1%E5%96%9C%E6%AC%A2%E7%9A%84%E4%B8%BB%E9%A2%98%EF%BC%88%E5%8D%9A%E4%B8%BB%E8%BF%99%E9%87%8C%E9%80%89%E6%8B%A9%E7%9A%84%E6%98%AFNext%EF%BC%89">https://hexo.io/themes/）找到自己喜欢的主题（博主这里选择的是Next）</a><br>选择自己喜欢的主题点击进入git页面，复制网址，执行以下代码</p>
+<h2 id="博客美化"><a href="#博客美化" class="headerlink" title="博客美化"></a>博客美化</h2><p>进入Hexo<a href="https://hexo.io/themes/">官网</a>找到自己喜欢的主题（博主这里选择的是Next）<br>选择自己喜欢的主题点击进入git页面，复制网址，执行以下代码</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone 复制主题的网址</span><br></pre></td></tr></table></figure>
 
 <p>在hexo目录下，配置_config.yml文件，在<code>theme：</code>输入主题名字即可,并在此目录下执行</p>
@@ -92,8 +92,8 @@
 <p>这里可能有的小伙伴看不到分类标签，只需要在blog\themes\next下编辑_config.yml文件即可<br>ctrl+f查找menu将需要的标签前面的#号去掉即可。<br>其他Next美化教程可<a href="https://zhuanlan.zhihu.com/p/30836436?utm_source=wechat_session&utm_medium=social&s_r=0">参考</a></p>
 <h2 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h2><p>在hexo文件夹下执行</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new + 文件名</span><br></pre></td></tr></table></figure>
-<p>会在blog\source-posts下生成对应的xxxx.md文件，编辑即可。可用<a href="https://markdown.com.cn/basic-syntax/code.html">markdown</a>编写。</p>
-<p>如果发现问题文章持续更新，联系MTMyNjUxNDA0MkBxcS5jb20&#x3D;</p>
+<p>会在blog\source-posts下生成对应的xxxx.md文件，用<a href="https://markdown.com.cn/basic-syntax/code.html">markdown</a>编辑即可。</p>
+<p>如发现问题文章持续更新，联系MTMyNjUxNDA0MkBxcS5jb20&#x3D;</p>
 ]]></content>
       <categories>
         <category>hexo</category>
