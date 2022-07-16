@@ -29,8 +29,7 @@
     <url>/2022/07/15/%E5%BC%80%E9%97%A8%E5%A4%A7%E5%90%89/</url>
     <content><![CDATA[<p>自认为我是一个爱捣鼓的人，在之前第一次了解黑苹果的时候，捣鼓半天在神舟的<strong>kp7gt</strong>（同方模具）的笔记本上成功运行<strong>macOS Catalina</strong>并完美驱动显卡。这次听说可通过<strong>hexo+github</strong>免费搭建个人博客，接下来是我的捣鼓过程及避坑指南~</p>
 <h2 id="Hexo简介"><a href="#Hexo简介" class="headerlink" title="Hexo简介"></a>Hexo简介</h2><p>Hexo是一款基于Node.js的博客框架。其有丰富的插件及主题。完美支持 <a href="https://markdown.com.cn/">Markdown</a>语法，同时支持node命令，并且可以一键部署到github或其他平台。最重要的是它免费~</p>
-<h2 id="相关工具以及环境的安装"><a href="#相关工具以及环境的安装" class="headerlink" title="相关工具以及环境的安装"></a>相关工具以及环境的安装</h2><p>1.安装<a href="https://nodejs.org/en/">Node.js</a><br>2.安装<a href="https://git-scm.com/">Git</a></p>
-<p>安装后，通过cmd命令行执行以下代码即可查看是否安装成功。出现版本号即安装成功。</p>
+<h2 id="相关工具以及环境的安装"><a href="#相关工具以及环境的安装" class="headerlink" title="相关工具以及环境的安装"></a>相关工具以及环境的安装</h2><p>1.安装<a href="https://nodejs.org/en/">Node.js</a><br>2.安装<a href="https://git-scm.com/">Git</a><br>安装后，通过cmd命令行执行以下代码即可查看是否安装成功。出现版本号即安装成功。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line">git --version</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">C:\Users\13265&gt;node -v</span><br><span class="line">v12.19.0</span><br><span class="line"></span><br><span class="line">C:\Users\13265&gt;npm -v</span><br><span class="line">6.14.8</span><br><span class="line"></span><br><span class="line">C:\Users\13265&gt;git --version</span><br><span class="line">git version 2.37.1.windows.1</span><br></pre></td></tr></table></figure>
@@ -62,7 +61,7 @@
 <p>测试ssh是否绑定成功（可以利用刚才生成SSH的git界面）</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
-<p>出现</p>
+<p>出现<br><img src="https://s2.loli.net/2022/07/15/Z4nmhYziTKS9VaD.png" alt="0ac628fa806442bc32b3f053aeeeea8.png"></p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">Hi xxxxxx！ You<span class="string">&#x27;re successfully authenticated~~~</span></span><br></pre></td></tr></table></figure>
 
 <p>后面的but balabala不用搭理</p>
