@@ -14,10 +14,12 @@
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="来自一道物理竞赛题，沙漏下面有一精准的称，沙漏下落的时候，称开始显示读数，直到沙子漏完，读数分为如下三个阶段。">
@@ -142,11 +144,6 @@
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
-        <li class="menu-item menu-item-schedule">
-
-    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a>
-
-  </li>
       <li class="menu-item menu-item-search">
         <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
@@ -209,7 +206,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
       <meta itemprop="name" content="vvitkey">
-      <meta itemprop="description" content="误解是人间常态，理解本事稀缺的例外">
+      <meta itemprop="description" content="误解是人间常态，理解本是稀缺的例外">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -281,7 +278,7 @@
         <p>来自一道物理竞赛题，沙漏下面有一精准的称，沙漏下落的时候，称开始显示读数，直到沙子漏完，读数分为如下三个阶段。</p>
 <span id="more"></span>
 
-<p><img src="https://s2.loli.net/2022/09/12/UoILaEzTQqrOC14.png" alt="ac345982b2b7d0a289a9bfd1bc1c90034a369a1c.png"></p>
+<p><img data-src="https://s2.loli.net/2022/09/12/UoILaEzTQqrOC14.png" alt="ac345982b2b7d0a289a9bfd1bc1c90034a369a1c.png"></p>
 <ul>
 <li>一开始沙子刚开始漏的时候，总体重量还减轻了一点。</li>
 <li>沙子开始落到底的时候。读数猛的震荡了一下，然后回到比整体重量略重的位置，且比较稳定。</li>
@@ -298,7 +295,7 @@
 <p><em>N</em> - 称的支持力（读数）<br><em>Mg</em> - 重力</p>
 </blockquote>
 <p>只需要将整个系统的重心位置写出来，然后看这个系统重心在整个过程中是怎么加速的，就可以知道称的读数怎么变化的<br><strong>这里将系统的重量分为三部分，如图所示</strong></p>
-<p><img src="https://s2.loli.net/2022/09/12/dDJ1y4WSt3bfQlH.png" alt="QQ截图20220912215235.png"></p>
+<p><img data-src="https://s2.loli.net/2022/09/12/dDJ1y4WSt3bfQlH.png" alt="QQ截图20220912215235.png"></p>
 <p>已经落到底部的叫做<code>m1</code>，中间正在下落的沙子<code>m2</code>，还在上面的沙子<code>m3</code>，都可看作时间<code>t</code>的函数，由质量守恒永远有</p>
 <p>$$<br>M &#x3D; m_1(t) + m_2(t) + m_3(t)(M为沙子的总重)<br>$$</p>
 <p>这个时候我们可以，建立坐标系，取原点为底部，整个系统重心的位置就是<br>$$<br>X_c &#x3D; （m_1x_1 + m_2x_2 + m_3x_3)&#x2F;M(x_1,x_2,x_3分别是三坨沙子的分别的重心位置)<br>$$</p>
@@ -410,7 +407,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   <p class="site-author-name" itemprop="name">vvitkey</p>
-  <div class="site-description" itemprop="description">误解是人间常态，理解本事稀缺的例外</div>
+  <div class="site-description" itemprop="description">误解是人间常态，理解本是稀缺的例外</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -541,6 +538,7 @@
   
   <script src="/lib/anime.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -663,3 +661,4 @@ if (document.querySelectorAll('pre.mermaid').length) {
 
 <script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true},"react":{"opacity":0.9},"log":false});</script></body>
 </html>
+
