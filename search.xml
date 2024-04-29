@@ -79,6 +79,30 @@
       </tags>
   </entry>
   <entry>
+    <title>概率题</title>
+    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
+    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
+<span id="more"></span>
+
+<p>$$<br>{\small P（B丨A1) &#x3D; \frac{P（A1丨B)}{P（A1）}P(B) }<br>$$</p>
+<p>$$<br>{\small P（B丨A2) &#x3D; \frac{P（A2丨B)}{P（A2）}P(B) }<br>$$</p>
+<p>由题意得<br><code>P（B丨A1)</code> &#x3D; 0.97<br><code>P（B丨A2)</code> &#x3D; 0.05</p>
+<p>$$<br>{\small 0.97&#x3D; \frac{P（A1丨B)}{P（A1）}P(B) }<br>$$</p>
+<p>$$<br>{\small 0.05&#x3D; \frac{P（A2丨B)}{P（A2）}P(B) }<br>$$</p>
+<p>两者相比</p>
+<p>$$<br>{\small \frac{0.97}{0.05} &#x3D; \frac{P（A1丨B)}{P（A2丨B)}\frac{P(A2)}{P(A1)} }<br>$$</p>
+<p>患病概率为1%，得<code>P（A1）=1%</code>，<code>P（A2)=99%</code></p>
+<p><code>P（A1丨B）</code> , <code>P（A2|B)</code>，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，所以两者相加为1。</p>
+<p>解方程得<code>P（A1丨B）=0.16</code></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>沙漏下落</title>
     <url>/2022/09/10/%E6%B2%99%E6%BC%8F%E4%B8%8B%E8%90%BD/</url>
     <content><![CDATA[<p>来自一道物理竞赛题，沙漏下面有一精准的称，沙漏下落的时候，称开始显示读数，直到沙子漏完，读数分为如下三个阶段。</p>
@@ -129,30 +153,6 @@
       </categories>
       <tags>
         <tag>interest</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>概率题</title>
-    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
-    <content><![CDATA[<p>一道概率题</p>
-<span id="more"></span>
-
-<p>$$<br>P（B丨A1) &#x3D; \frac{P（A1丨B)}{P（A1）}P(B)<br>$$</p>
-<p>$$<br>P（B丨A2) &#x3D; \frac{P（A2丨B)}{P（A2）}P(B)<br>$$</p>
-<p>由题意得<br><code>P（B丨A1)</code> &#x3D; 0.97<br><code>P（B丨A2)</code> &#x3D; 0.05</p>
-<p>$$<br>0.97&#x3D; \frac{P（A1丨B)}{P（A1）}P(B)<br>$$</p>
-<p>$$<br>0.05&#x3D; \frac{P（A2丨B)}{P（A2）}P(B)<br>$$</p>
-<p>两者相比</p>
-<p>$$<br>\frac{0.97}{0.05} &#x3D; \frac{P（A1丨B)}{P（A1丨B)}\frac{P(A2)}{P(A1)}<br>$$</p>
-<p>患病概率为1%，得<code>P（A1）=1%</code>，<code>P（A2)=99%</code></p>
-<p><code>P（A1丨B）</code> , <code>P（A2|B)</code>，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，所以两者相加为1。</p>
-<p>解方程的<code>P（A1丨B）=0.16</code></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
       </tags>
   </entry>
 </search>
