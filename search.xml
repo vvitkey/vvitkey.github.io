@@ -21,6 +21,28 @@
 ]]></content>
   </entry>
   <entry>
+    <title>hexo+……</title>
+    <url>/2024/04/26/hexo/</url>
+    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事<br>温馨提示<br>以下操作均在Macos进行，可能无需像Windows一样配置相应环境~</p>
+<span id="more"></span>
+
+<h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
+
+<p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
+<p>macbook解决<code>hexo s</code>代码，忘记Ctrl+c，导致端口占用问题</p>
+<p><a href="https://blog.csdn.net/Little_Pig_Bug/article/details/114520618">https://blog.csdn.net/Little_Pig_Bug/article/details/114520618</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##修改</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
+<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)<br><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>同学录</title>
     <url>/2022/07/30/%E5%90%8C%E5%AD%A6%E5%BD%95/</url>
     <content><![CDATA[<p>来自于搬运，个人觉得不错。</p>
@@ -54,28 +76,6 @@
       </categories>
       <tags>
         <tag>一些不错的小故事</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo+……</title>
-    <url>/2024/04/26/hexo/</url>
-    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事<br>温馨提示<br>以下操作均在Macos进行，可能无需像Windows一样配置相应环境~</p>
-<span id="more"></span>
-
-<h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
-
-<p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
-<p>macbook解决<code>hexo s</code>代码，忘记Ctrl+c，导致端口占用问题</p>
-<p><a href="https://blog.csdn.net/Little_Pig_Bug/article/details/114520618">https://blog.csdn.net/Little_Pig_Bug/article/details/114520618</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##修改</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
-<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)<br><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -137,9 +137,11 @@
     <content><![CDATA[<p>一道概率题</p>
 <span id="more"></span>
 
-<p>$$<br>P（B丨A1) &#x3D; \frac{P（A1丨B)}{P（A1）}P(B)<br>P（B丨A2) &#x3D; \frac{P（A2丨B)}{P（A2）}P(B)<br>$$</p>
+<p>$$<br>P（B丨A1) &#x3D; \frac{P（A1丨B)}{P（A1）}P(B)<br>$$</p>
+<p>$$<br>P（B丨A2) &#x3D; \frac{P（A2丨B)}{P（A2）}P(B)<br>$$</p>
 <p>由题意得<br><code>P（B丨A1)</code> &#x3D; 0.97<br><code>P（B丨A2)</code> &#x3D; 0.05</p>
-<p>$$<br>0.97&#x3D; \frac{P（A1丨B)}{P（A1）}P(B)<br>0.05&#x3D; \frac{P（A2丨B)}{P（A2）}P(B)<br>$$</p>
+<p>$$<br>0.97&#x3D; \frac{P（A1丨B)}{P（A1）}P(B)<br>$$</p>
+<p>$$<br>0.05&#x3D; \frac{P（A2丨B)}{P（A2）}P(B)<br>$$</p>
 <p>两者相比</p>
 <p>$$<br>\frac{0.97}{0.05} &#x3D; \frac{P（A1丨B)}{P（A1丨B)}\frac{P(A2)}{P(A1)}<br>$$</p>
 <p>患病概率为1%，得<code>P（A1）=1%</code>，<code>P（A2)=99%</code></p>
