@@ -85,6 +85,7 @@
 <span id="more"></span>
 
 <p>题目如下<br>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
+<p>解答如下</p>
 <p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
 <p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
 <p>由题意得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
@@ -95,6 +96,8 @@
 <p>患病概率为1%，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
 <p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
 <p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
+<p><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a></p>
+<p><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
