@@ -79,34 +79,6 @@
       </tags>
   </entry>
   <entry>
-    <title>概率题</title>
-    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
-    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
-<span id="more"></span>
-
-<p>题目如下<br>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
-<p>解答如下</p>
-<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>由题意得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
-<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>两者相比</p>
-<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
-<p>患病概率为1%，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
-<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
-<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
-<p><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a></p>
-<p><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>沙漏下落</title>
     <url>/2022/09/10/%E6%B2%99%E6%BC%8F%E4%B8%8B%E8%90%BD/</url>
     <content><![CDATA[<p>来自一道物理竞赛题，沙漏下面有一精准的称，沙漏下落的时候，称开始显示读数，直到沙子漏完，读数分为如下三个阶段。</p>
@@ -130,26 +102,46 @@
 </blockquote>
 <p>只需要将整个系统的重心位置写出来，然后看这个系统重心在整个过程中是怎么加速的，就可以知道称的读数怎么变化的<br><strong>这里将系统的重量分为三部分，如图所示</strong></p>
 <p><img data-src="https://s2.loli.net/2022/09/12/dDJ1y4WSt3bfQlH.png" alt="QQ截图20220912215235.png"></p>
-<p>已经落到底部的叫做<code>m1</code>，中间正在下落的沙子<code>m2</code>，还在上面的沙子<code>m3</code>，都可看作时间<code>t</code>的函数，由质量守恒永远有</p>
-<p>$$<br>M &#x3D; m_1(t) + m_2(t) + m_3(t)(M为沙子的总重)<br>$$</p>
-<p>这个时候我们可以，建立坐标系，取原点为底部，整个系统重心的位置就是<br>$$<br>X_c &#x3D; （m_1x_1 + m_2x_2 + m_3x_3)&#x2F;M(x_1,x_2,x_3分别是三坨沙子的分别的重心位置)<br>$$</p>
-<h2 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h2><p>这个时候沙子还没有落到底，所以<code>m1 = 0</code>， <code>m2+m3=M</code>，算重心的加速度，就是对<code>Xc</code>的时间t函数，求导两次。<br>可以得到</p>
-<p>$$<br>X_c^{\prime\prime} &#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3<br>$$</p>
-<p>这一阶段<code>m2</code>的减少等于<code>m3</code>的增加，所以<code>m2&#39; = -m3&#39;</code>, <code>m2&#39;&#39; = -m3&#39;&#39;</code>, 带入合并同类项得到</p>
-<p>$$<br>X_c^{\prime\prime}&#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3^{\prime\prime}<br>$$</p>
-<p>如果可以证明以上式子<code>&lt;0</code>，那么就说明整体的重心位置是在加速向下移动，这种情况下，根据牛顿第二定律，支持力肯定小于重力，因此在沙子还没有落到底部的时候，整体的读数是小于平衡读数的<br><strong>第一项</strong><code>m2</code>这部分沙子，在落下来的时候，就在做自由落体运动，所以m2对时间求导两次的话，就是正比于重力加速度</p>
-<p>$$<br>m_2^{\prime}\propto g&gt; 0<br>$$</p>
-<p><code>m2</code>的重心位置肯定比<code>m3</code>的沙子重心位置低，所以<code>x2 - x3 &lt; 0</code>，<code>m2&#39;&#39;(x2-x3) &lt; 0</code></p>
+<p>已经落到底部的叫做 ${\mathit{\color{Orange}{ m_1 }}}$ ，中间正在下落的沙子 ${\mathit{\color{Orange}{ m_2 }}}$ ，还在上面的沙子 $\mathit{\color{Orange}{ m_3 }}$ ，都可看作时间 $\mathit{\color{Orange}{ t }}$ 的函数，由质量守恒永远有</p>
+<p>$$<br>\mathit { M &#x3D; m_1(t) + m_2(t) + m_3(t)(M为沙子的总重) }<br>$$</p>
+<p>这个时候我们可以，建立坐标系，取原点为底部，整个系统重心的位置就是<br>$$<br>\mathit { X_c &#x3D; （m_1x_1 + m_2x_2 + m_3x_3)&#x2F;M(x_1,x_2,x_3分别是三坨沙子的分别的重心位置) }<br>$$</p>
+<h2 id="第一阶段"><a href="#第一阶段" class="headerlink" title="第一阶段"></a>第一阶段</h2><p>这个时候沙子还没有落到底，所以 $\mathit{\color{Orange}{ m_1 &#x3D; 0 }}$ ， $\mathit{\color{Orange}{ m_2 + m_3 &#x3D; M }}$ ，算重心的加速度，就是对 $\mathit{\color{Orange}{ X_c }}$ 的时间t函数，求导两次。<br>可以得到</p>
+<p>$$<br>\mathit {X_c^{\prime\prime} &#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3}<br>$$</p>
+<p>这一阶段<code>m2</code>的减少等于<code>m3</code>的增加，所以 $\mathit{\color{Orange}{ {m_2}’ &#x3D; -{m_3}’  }}$ , $\mathit{\color{Orange}{ {m_2}’’ &#x3D; -{m_3}’’  }}$ , 带入合并同类项得到</p>
+<p>$$<br>\mathit{X_c^{\prime\prime}&#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3^{\prime\prime}}<br>$$</p>
+<p>如果可以证明以上式子 $\color{Orange}{ &lt;0 }$，那么就说明整体的重心位置是在加速向下移动，这种情况下，根据牛顿第二定律，支持力肯定小于重力，因此在沙子还没有落到底部的时候，整体的读数是小于平衡读数的<br><strong>第一项</strong>   $\mathit{\color{Orange}{ m_2 }}$ 这部分沙子，在落下来的时候，就在做自由落体运动，所以m2对时间求导两次的话，就是正比于重力加速度</p>
+<p>$$<br>\mathit{m_2^{\prime}\propto g&gt; 0}<br>$$</p>
+<p><code>m_2</code>的重心位置肯定比<code>m3</code>的沙子重心位置低，所以<code>x2 - x3 &lt; 0</code>，<code>m2&#39;&#39;(x2-x3) &lt; 0</code></p>
 <p><strong>第二项</strong></p>
-<p>$$<br>m_2(x_2^{\prime\prime} - x_3^{\prime\prime}）<br>$$</p>
+<p>$$<br>\mathit{m_2(x_2^{\prime\prime} - x_3^{\prime\prime}）}<br>$$</p>
 <p><code>x2&#39;&#39;</code>是<code>m2</code>的加速度，即<code>m2</code>重心的加速度，<code>m2</code>是自由落体，所以重心加速度就是重力加速度，而重力加速度是负数，<code>x2&#39;&#39;&#39;= -g</code>，而<code>m3</code>的质量很大，基本可以断定，<code>m3</code>的重心改变不会太快，所以<code>m2(x2&#39;&#39; - x3&#39;&#39;） &lt; 0</code></p>
 <p><strong>第三项</strong><code>m2</code>随着时间的增加而增加，<code>m2&#39; &gt; 0</code>，<code>x2&#39;</code>是<code>m2</code>的重心速度，向下为负数，<code>x3</code>质量大，<code>x3</code>肯定小于<code>x2</code>，所以<code>x2&#39; - x3&#39; &lt; 0</code></p>
 <p><strong>第四项</strong><code>x3&#39;&#39;</code>基本为0可以忽略，所以<code>Xc&#39;&#39; &lt; 0 </code>，所以总体的加速度是向下的，支持力小于重力所以读数减少。</p>
-<h2 id="第二阶段"><a href="#第二阶段" class="headerlink" title="第二阶段"></a>第二阶段</h2><p>由于我们坐标原点取在了底部，所以<code>x1</code>一直都是0，重心还是刚才那个表达式，但是这次条件有所不同，因为在此阶段，中间下落的沙子<code>m2</code>是不变的，由此可得<br>$$<br>m2^{\prime }&#x3D;0<br>$$</p>
-<p>$$<br>m2^{\prime \prime }&#x3D;0<br>$$</p>
-<p>且<code>m2</code>的重心位置也是不变的，由此可得<br>$$<br>x2^{\prime }&#x3D;0<br>$$</p>
-<p>$$<br>x2^{\prime \prime }&#x3D;0<br>$$<br>这样简化下来，重心位置就是，如下仅有三项<br>$$<br>X_c^{\prime \prime }&#x3D;{m_3^{\prime \prime }x_3+2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M<br>$$<br>因为<code>m3</code>的质量是匀速减少的，所以二阶导数是0，可得<br>$$<br>m_3^{\prime\prime }&#x3D;0<br>$$<br>综上所述可得如下方程<br>$$<br>X_c^{\prime \prime }&#x3D;{2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M<br>$$<br>现在需要证明这个数&gt;0即可，首先<code>m3</code>随时间减少，可得<code>m3&#39;&lt;0</code>，而<code>m3</code>的重心也在降低，得<code>x3&#39;&lt;0</code>，所以<code>m3x3&gt;0</code>。<br>由于上述容器形状规则，<code>m3</code>匀速减少，所以基本上<code>x3</code>的加速度也是0，即<code>x3&#39;&#39;≈0</code>，即便不会是0也无法贡献太多。所以第二阶段重心加速度向上，支持力大于重力。<br>并且由于<code>x3&#39;&#39;</code>的贡献很小，而<code>x3&#39;</code>和<code>x3&#39;</code>基本为恒定值，这是因为<code>m2</code>的形态是不变的，<code>m3</code>减少的速度是恒定的，那么<code>m3</code>的重心降低的速度也因为容器形状的原因基本恒定，所以这也解释了为什么第二段读数比较稳定。</p>
-<h2 id="第三阶段"><a href="#第三阶段" class="headerlink" title="第三阶段"></a>第三阶段</h2><p>回到上述式子<br>$$<br>X_c^{\prime\prime} &#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3<br>$$<br>沙子漏完，<code>m3=0</code>，式子得到如下简化<br>$$<br>X_c^{\prime\prime} &#x3D; ({m_2^{\prime\prime}x_2+2m_2^{\prime}x_2^{\prime}+m_2x_2^{\prime\prime}})&#x2F;M<br>$$<br>最后一段在空中的沙子是自由落体，相当于<code>m2</code>的质量正比于长度，假设<code>m2</code>为质量分布均匀的圆柱体，相当于两倍的重心位置，所以重心位置在中心部位，得：<br>$$<br>m_2&#x3D;2x_2\rho<br>$$<br><code>ρ</code>为沙子的线密度，代入<br>$$<br>X_c^{\prime \prime }&#x3D;{4\rho (x_2x_2^{\prime \prime }+(x_2^{\prime})^2)}&#x2F;M<br>$$<br>既然是自由落体<br>$$<br>x_2&#x3D;\frac{1}{2} gt^2<br>$$<br>带入得：<br>$$<br>X_c^{\prime \prime }&#x3D;6\rho g^2t^2&#x2F;M<br>$$<br><code>t</code>的二次方，抛物线，首先数值为正，并且随时间抛物线增长</p>
+<h2 id="第二阶段"><a href="#第二阶段" class="headerlink" title="第二阶段"></a>第二阶段</h2><p>由于我们坐标原点取在了底部，所以<code>x1</code>一直都是0，重心还是刚才那个表达式，但是这次条件有所不同，因为在此阶段，中间下落的沙子<code>m2</code>是不变的，由此可得</p>
+<p>$$<br>\mathit{m2^{\prime }&#x3D;0}<br>$$</p>
+<p>$$<br>\mathit{m2^{\prime \prime }&#x3D;0}<br>$$</p>
+<p>且<code>m2</code>的重心位置也是不变的，由此可得</p>
+<p>$$<br>\mathit{x2^{\prime }&#x3D;0}<br>$$</p>
+<p>$$<br>\mathit {x2^{\prime \prime }&#x3D;0}<br>$$</p>
+<p>这样简化下来，重心位置就是，如下仅有三项</p>
+<p>$$<br>\mathit{X_c^{\prime \prime }&#x3D;{m_3^{\prime \prime }x_3+2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M}<br>$$<br>因为<code>m3</code>的质量是匀速减少的，所以二阶导数是0，可得</p>
+<p>$$<br>\mathit{m_3^{\prime\prime }&#x3D;0}<br>$$</p>
+<p>综上所述可得如下方程</p>
+<p>$$<br>\mathit{X_c^{\prime \prime }&#x3D;{2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M}<br>$$</p>
+<p>现在需要证明这个数&gt;0即可，首先<code>m3</code>随时间减少，可得<code>m3&#39;&lt;0</code>，而<code>m3</code>的重心也在降低，得<code>x3&#39;&lt;0</code>，所以<code>m3x3&gt;0</code>。<br>由于上述容器形状规则，<code>m3</code>匀速减少，所以基本上<code>x3</code>的加速度也是0，即<code>x3&#39;&#39;≈0</code>，即便不会是0也无法贡献太多。所以第二阶段重心加速度向上，支持力大于重力。<br>并且由于<code>x3&#39;&#39;</code>的贡献很小，而<code>x3&#39;</code>和<code>x3&#39;</code>基本为恒定值，这是因为<code>m2</code>的形态是不变的，<code>m3</code>减少的速度是恒定的，那么<code>m3</code>的重心降低的速度也因为容器形状的原因基本恒定，所以这也解释了为什么第二段读数比较稳定。</p>
+<h2 id="第三阶段"><a href="#第三阶段" class="headerlink" title="第三阶段"></a>第三阶段</h2><p>回到上述式子</p>
+<p>$$<br>\mathit {X_c^{\prime\prime} &#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3}<br>$$</p>
+<p>沙子漏完，<code>m3=0</code>，式子得到如下简化</p>
+<p>$$<br>\mathit{X_c^{\prime\prime} &#x3D; ({m_2^{\prime\prime}x_2+2m_2^{\prime}x_2^{\prime}+m_2x_2^{\prime\prime}})&#x2F;M}<br>$$</p>
+<p>最后一段在空中的沙子是自由落体，相当于<code>m2</code>的质量正比于长度，假设<code>m2</code>为质量分布均匀的圆柱体，相当于两倍的重心位置，所以重心位置在中心部位，得：</p>
+<p>$$<br>\mathit{m_2&#x3D;2x_2\rho }<br>$$</p>
+<p><code>ρ</code>为沙子的线密度，代入</p>
+<p>$$<br>\mathit{X_c^{\prime \prime }&#x3D;{4\rho (x_2x_2^{\prime \prime }+(x_2^{\prime})^2)}&#x2F;M}<br>$$</p>
+<p>既然是自由落体</p>
+<p>$$<br>\mathit{x_2&#x3D;\frac{1}{2} gt^2}<br>$$</p>
+<p>带入得：</p>
+<p>$$<br>\mathit {X_c^{\prime \prime }&#x3D;6\rho g^2t^2&#x2F;M}<br>$$</p>
+<p><code>t</code>的二次方，抛物线，首先数值为正，并且随时间抛物线增长</p>
 <p>以上，我们用定量的方法解释了，当然还有一点沙子刚落下那一刻，有一点局部的震荡，其实可以理解为沙子跟底部结束的时候，非完全弹性碰撞，所以有一些局部震荡，即实际系统非理想化导致的。</p>
 ]]></content>
       <categories>
@@ -157,6 +149,35 @@
       </categories>
       <tags>
         <tag>interest</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率题</title>
+    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
+    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
+<span id="more"></span>
+
+<p>题目如下<br>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
+<p>解答如下</p>
+<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
+<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>两者相比</p>
+<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
+<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
+<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
+<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
+<p>以下想写一下，关于贝叶斯公式的推导过程</p>
+<p><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a></p>
+<p><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
       </tags>
   </entry>
 </search>
