@@ -22,16 +22,16 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="22年弄好hexo搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事温馨提示以下操作均在Macos进行，可能无需像Windows一样配置相应环境~">
+  <meta name="description" content="22年弄好hexo搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo+……">
 <meta property="og:url" content="http://example.com/2024/04/26/hexo/index.html">
 <meta property="og:site_name" content="vvitkey&#39;s blog">
-<meta property="og:description" content="22年弄好hexo搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事温馨提示以下操作均在Macos进行，可能无需像Windows一样配置相应环境~">
+<meta property="og:description" content="22年弄好hexo搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png">
 <meta property="article:published_time" content="2024-04-26T00:39:21.000Z">
-<meta property="article:modified_time" content="2024-04-26T08:34:08.165Z">
+<meta property="article:modified_time" content="2024-05-16T07:07:57.345Z">
 <meta property="article:author" content="vvitkey">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -220,10 +220,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2024-04-26 08:39:21 / 修改时间：16:34:08" itemprop="dateCreated datePublished" datetime="2024-04-26T08:39:21+08:00">2024-04-26</time>
+              <time title="创建时间：2024-04-26 08:39:21" itemprop="dateCreated datePublished" datetime="2024-04-26T08:39:21+08:00">2024-04-26</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-05-16 15:07:57" itemprop="dateModified" datetime="2024-05-16T15:07:57+08:00">2024-05-16</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -247,7 +253,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>793</span>
+              <span>1.1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -266,17 +272,27 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>22年弄好<a target="_blank" rel="noopener" href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事<br>温馨提示<br>以下操作均在Macos进行，可能无需像Windows一样配置相应环境~</p>
+        <p>22年弄好<a target="_blank" rel="noopener" href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事</p>
 <span id="more"></span>
 
+<p>温馨提示<br>以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</p>
 <h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
 
 <p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a target="_blank" rel="noopener" href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
-<p>macbook解决<code>hexo s</code>代码，忘记Ctrl+c，导致端口占用问题</p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Little_Pig_Bug/article/details/114520618">https://blog.csdn.net/Little_Pig_Bug/article/details/114520618</a></p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">##修改</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
-<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)<br><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
+<h1 id="导致端口占用问题"><a href="#导致端口占用问题" class="headerlink" title="导致端口占用问题"></a>导致端口占用问题</h1><p><code>hexo s</code>代码之后，忘记<code>Ctrl+c</code>结束本地预览，导致端口占用问题，常规hexo会占用4000端口，执行代码</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lsof -i tcp:<span class="number">4000</span> <span class="comment">#这里哪个端口被占用了就填对应端口</span></span><br></pre></td></tr></table></figure>
+<p>博主出现上述代码，可知我的PID是73321。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">COMMAND   PID USER   FD   TYPE            DEVICE SIZE/OFF NODE NAME</span><br><span class="line">node    <span class="number">73321</span> root   36u  IPv6 <span class="number">0x2a2387f854347db</span>      0t0  TCP *:terabase (LISTEN)</span><br></pre></td></tr></table></figure>
+<p>执行命令<code>kill -9 73321</code>即可。</p>
+<h1 id="无法上传问题"><a href="#无法上传问题" class="headerlink" title="无法上传问题"></a>无法上传问题</h1><p>执行代码<code>hexo d</code>出现如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">err: Error: Spawn failed at ChildProcess.&lt;anonymous&gt;</span><br></pre></td></tr></table></figure>
+
+<p>出现这串代码主要是网络问题，博主是怎么都无法上传，后来想到更换一种上传方式，解决办法如下</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">## 修改</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
+
+<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)</p>
+<p><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
 
     </div>
 
@@ -360,7 +376,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%89%E5%8F%96%E6%96%87%E5%AD%97%E4%BF%AE%E6%94%B9"><span class="nav-number">1.</span> <span class="nav-text">选取文字修改</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%80%89%E5%8F%96%E6%96%87%E5%AD%97%E4%BF%AE%E6%94%B9"><span class="nav-number">1.</span> <span class="nav-text">选取文字修改</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AF%BC%E8%87%B4%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98"><span class="nav-number">2.</span> <span class="nav-text">导致端口占用问题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%97%A0%E6%B3%95%E4%B8%8A%E4%BC%A0%E9%97%AE%E9%A2%98"><span class="nav-number">3.</span> <span class="nav-text">无法上传问题</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 

@@ -39,17 +39,27 @@
   <entry>
     <title>hexo+……</title>
     <url>/2024/04/26/hexo/</url>
-    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事<br>温馨提示<br>以下操作均在Macos进行，可能无需像Windows一样配置相应环境~</p>
+    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事</p>
 <span id="more"></span>
 
+<p>温馨提示<br>以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</p>
 <h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
 
 <p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
-<p>macbook解决<code>hexo s</code>代码，忘记Ctrl+c，导致端口占用问题</p>
-<p><a href="https://blog.csdn.net/Little_Pig_Bug/article/details/114520618">https://blog.csdn.net/Little_Pig_Bug/article/details/114520618</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##修改</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
-<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)<br><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
+<h1 id="导致端口占用问题"><a href="#导致端口占用问题" class="headerlink" title="导致端口占用问题"></a>导致端口占用问题</h1><p><code>hexo s</code>代码之后，忘记<code>Ctrl+c</code>结束本地预览，导致端口占用问题，常规hexo会占用4000端口，执行代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lsof -i tcp:<span class="number">4000</span> <span class="comment">#这里哪个端口被占用了就填对应端口</span></span><br></pre></td></tr></table></figure>
+<p>博主出现上述代码，可知我的PID是73321。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">COMMAND   PID USER   FD   TYPE            DEVICE SIZE/OFF NODE NAME</span><br><span class="line">node    <span class="number">73321</span> root   36u  IPv6 <span class="number">0x2a2387f854347db</span>      0t0  TCP *:terabase (LISTEN)</span><br></pre></td></tr></table></figure>
+<p>执行命令<code>kill -9 73321</code>即可。</p>
+<h1 id="无法上传问题"><a href="#无法上传问题" class="headerlink" title="无法上传问题"></a>无法上传问题</h1><p>执行代码<code>hexo d</code>出现如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">err: Error: Spawn failed at ChildProcess.&lt;anonymous&gt;</span><br></pre></td></tr></table></figure>
+
+<p>出现这串代码主要是网络问题，博主是怎么都无法上传，后来想到更换一种上传方式，解决办法如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">## 修改</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
+
+<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)</p>
+<p><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
 ]]></content>
       <categories>
         <category>技术</category>
