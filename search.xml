@@ -1,48 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2024/04/23/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo+……</title>
-    <url>/2024/04/26/hexo/</url>
-    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事<br>温馨提示<br>以下操作均在Macos进行，可能无需像Windows一样配置相应环境~</p>
-<span id="more"></span>
-
-<h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
-
-<p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
-<p>macbook解决<code>hexo s</code>代码，忘记Ctrl+c，导致端口占用问题</p>
-<p><a href="https://blog.csdn.net/Little_Pig_Bug/article/details/114520618">https://blog.csdn.net/Little_Pig_Bug/article/details/114520618</a></p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##修改</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
-<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)<br><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>同学录</title>
     <url>/2022/07/30/%E5%90%8C%E5%AD%A6%E5%BD%95/</url>
     <content><![CDATA[<p>来自于搬运，个人觉得不错。</p>
@@ -79,32 +37,25 @@
       </tags>
   </entry>
   <entry>
-    <title>概率题</title>
-    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
-    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
+    <title>hexo+……</title>
+    <url>/2024/04/26/hexo/</url>
+    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传，23年一段时间，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事<br>温馨提示<br>以下操作均在Macos进行，可能无需像Windows一样配置相应环境~</p>
 <span id="more"></span>
 
-<p>题目如下<br>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
-<p>解答如下</p>
-<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
-<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>两者相比</p>
-<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
-<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
-<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
-<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
-<p>以下想写一下，关于贝叶斯公式的推导过程</p>
-<p><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a></p>
-<p><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
+<h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
+
+<p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
+<p>macbook解决<code>hexo s</code>代码，忘记Ctrl+c，导致端口占用问题</p>
+<p><a href="https://blog.csdn.net/Little_Pig_Bug/article/details/114520618">https://blog.csdn.net/Little_Pig_Bug/article/details/114520618</a></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">##修改</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
+<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)<br><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>数学</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -140,27 +91,27 @@
 <p>$$<br>\mathit{X_c^{\prime\prime}&#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3^{\prime\prime}}<br>$$</p>
 <p>如果可以证明以上式子 $\color{Orange}{ &lt;0 }$，那么就说明整体的重心位置是在加速向下移动，这种情况下，根据牛顿第二定律，支持力肯定小于重力，因此在沙子还没有落到底部的时候，整体的读数是小于平衡读数的<br><strong>第一项</strong>   $\mathit{\color{Orange}{ m_2 }}$ 这部分沙子，在落下来的时候，就在做自由落体运动，所以m2对时间求导两次的话，就是正比于重力加速度</p>
 <p>$$<br>\mathit{m_2^{\prime}\propto g&gt; 0}<br>$$</p>
-<p><code>m_2</code>的重心位置肯定比<code>m3</code>的沙子重心位置低，所以<code>x2 - x3 &lt; 0</code>，<code>m2&#39;&#39;(x2-x3) &lt; 0</code></p>
+<p>$\mathit{\color{Orange}{ m_2 }}$ 的重心位置肯定比 $\mathit{\color{Orange}{ m_3 }}$ 的沙子重心位置低，所以 $\mathit{\color{Orange}{ x_2 - x_3 &lt; 0 }}$ ， $\mathit{\color{Orange}{ {m_2}’’(x_2-x_3) }}$</p>
 <p><strong>第二项</strong></p>
 <p>$$<br>\mathit{m_2(x_2^{\prime\prime} - x_3^{\prime\prime}）}<br>$$</p>
-<p><code>x2&#39;&#39;</code>是<code>m2</code>的加速度，即 $\mathit{\color{Orange}{ m_2 }}$ 重心的加速度， $\mathit{\color{Orange}{ m_2 }}$ 是自由落体，所以重心加速度就是重力加速度，而重力加速度是负数，<code>x2&#39;&#39;&#39;= -g</code>，而 $\mathit{\color{Orange}{ m_3 }}$ 的质量很大，基本可以断定， $\mathit{\color{Orange}{ m_3 }}$ 的重心改变不会太快，所以<code>m2(x2&#39;&#39; - x3&#39;&#39;） &lt; 0</code></p>
-<p><strong>第三项</strong><code>m2</code>随着时间的增加而增加，<code>m2&#39; &gt; 0</code>，<code>x2&#39;</code>是 $\mathit{\color{Orange}{ m_2 }}$ 的重心速度，向下为负数， $\mathit{\color{Orange}{ X_3 }}$ 质量大， $\mathit{\color{Orange}{ X_3 }}$ 肯定小于 $\mathit{\color{Orange}{ X_2 }}$ ，所以<code>x2&#39; - x3&#39; &lt; 0</code></p>
-<p><strong>第四项</strong><code>x3&#39;&#39;</code>基本为0可以忽略，所以<code>Xc&#39;&#39; &lt; 0 </code>，所以总体的加速度是向下的，支持力小于重力所以读数减少。</p>
-<h2 id="第二阶段"><a href="#第二阶段" class="headerlink" title="第二阶段"></a>第二阶段</h2><p>由于我们坐标原点取在了底部，所以 $\mathit{\color{Orange}{ X_1 }}$ 一直都是0，重心还是刚才那个表达式，但是这次条件有所不同，因为在此阶段，中间下落的沙子 $\mathit{\color{Orange}{ m_2 }}$ 是不变的，由此可得</p>
+<p>$\mathit{\color{Orange}{ {x_2}’’ }}$ 是 $\mathit{\color{Orange}{ m_2 }}$ 的加速度，即 $\mathit{\color{Orange}{ m_2 }}$ 重心的加速度， $\mathit{\color{Orange}{ m_2 }}$ 是自由落体，所以重心加速度就是重力加速度，而重力加速度是负数， $\mathit{\color{Orange}{ {x_2}’’’ &#x3D; -g }}$ ，而 $\mathit{\color{Orange}{ m_3 }}$ 的质量很大，基本可以断定， $\mathit{\color{Orange}{ m_3 }}$ 的重心改变不会太快，所以 $\mathit{\color{Orange}{ m_2 ( {x_2}’’ - {x_3}’’）&lt; 0 }}$</p>
+<p><strong>第三项</strong> $\mathit{\color{Orange}{ m_2 }}$ 随着时间的增加而增加， $\mathit{\color{Orange}{ {m_2}’&gt;0 }}$  ， $\mathit{\color{Orange}{ {x_2}’ }}$ 是 $\mathit{\color{Orange}{ m_2 }}$ 的重心速度，向下为负数， $\mathit{\color{Orange}{ x_3 }}$ 质量大， $\mathit{\color{Orange}{ x_3 }}$ 肯定小于 $\mathit{\color{Orange}{ x_2 }}$ ，所以 $\mathit{\color{Orange}{ {x_2}’-{x_3}’&lt;0 }}$ </p>
+<p><strong>第四项</strong> $\mathit{\color{Orange}{ x_3 }}$ 基本为0可以忽略，所以 $\mathit{\color{Orange}{ {X_c}’’ &lt;0 }}$ ，所以总体的加速度是向下的，支持力小于重力所以读数减少。</p>
+<h2 id="第二阶段"><a href="#第二阶段" class="headerlink" title="第二阶段"></a>第二阶段</h2><p>由于我们坐标原点取在了底部，所以 $\mathit{\color{Orange}{ x_1 }}$ 一直都是0，重心还是刚才那个表达式，但是这次条件有所不同，因为在此阶段，中间下落的沙子 $\mathit{\color{Orange}{ m_2 }}$ 是不变的，由此可得</p>
 <p>$$<br>\mathit{m2^{\prime }&#x3D;0}<br>$$</p>
 <p>$$<br>\mathit{m2^{\prime \prime }&#x3D;0}<br>$$</p>
-<p>且<code>m2</code>的重心位置也是不变的，由此可得</p>
+<p>且 $\mathit{\color{Orange}{ m_2 }}$ 的重心位置也是不变的，由此可得</p>
 <p>$$<br>\mathit{x2^{\prime }&#x3D;0}<br>$$</p>
 <p>$$<br>\mathit {x2^{\prime \prime }&#x3D;0}<br>$$</p>
 <p>这样简化下来，重心位置就是，如下仅有三项</p>
-<p>$$<br>\mathit{X_c^{\prime \prime }&#x3D;{m_3^{\prime \prime }x_3+2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M}<br>$$<br>因为<code>m3</code>的质量是匀速减少的，所以二阶导数是0，可得</p>
+<p>$$<br>\mathit{X_c^{\prime \prime }&#x3D;{m_3^{\prime \prime }x_3+2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M}<br>$$<br>因为 $\mathit{\color{Orange}{ m_3 }}$ 的质量是匀速减少的，所以二阶导数是0，可得</p>
 <p>$$<br>\mathit{m_3^{\prime\prime }&#x3D;0}<br>$$</p>
 <p>综上所述可得如下方程</p>
 <p>$$<br>\mathit{X_c^{\prime \prime }&#x3D;{2m_3x_3+m_3x_3^{\prime \prime }}&#x2F;M}<br>$$</p>
-<p>现在需要证明这个数&gt;0即可，首先 $\mathit{\color{Orange}{ m_3 }}$ 随时间减少，可得<code>m3&#39;&lt;0</code>，而 $\mathit{\color{Orange}{ m_3 }}$ 的重心也在降低，得<code>x3&#39;&lt;0</code>，所以<code>m3x3&gt;0</code>。<br>由于上述容器形状规则， $\mathit{\color{Orange}{ m_3 }}$ 匀速减少，所以基本上 $\mathit{\color{Orange}{ X_3 }}$ 的加速度也是0，即<code>x3&#39;&#39;≈0</code>，即便不会是0也无法贡献太多。所以第二阶段重心加速度向上，支持力大于重力。<br>并且由于<code>x3&#39;&#39;</code>的贡献很小，而<code>x3&#39;</code>和<code>x3&#39;</code>基本为恒定值，这是因为 $\mathit{\color{Orange}{ m_2 }}$ 的形态是不变的， $\mathit{\color{Orange}{ m_3 }}$ 减少的速度是恒定的，那么 $\mathit{\color{Orange}{ m_3 }}$ 的重心降低的速度也因为容器形状的原因基本恒定，所以这也解释了为什么第二段读数比较稳定。</p>
+<p>现在需要证明这个数&gt;0即可，首先 $\mathit{\color{Orange}{ m_3 }}$ 随时间减少，可得 $\mathit{\color{Orange}{ {m_3}’ &lt; 0  }}$ ，而 $\mathit{\color{Orange}{ m_3 }}$ 的重心也在降低，得 $\mathit{\color{Orange}{ {x_3}’&lt;0 }}$ ，所以 $\mathit{\color{Orange}{ m_3x_3&gt;0 }}$ 。<br>由于上述容器形状规则， $\mathit{\color{Orange}{ m_3 }}$ 匀速减少，所以基本上 $\mathit{\color{Orange}{ X_3 }}$ 的加速度也是0，即 $\mathit{\color{Orange}{ {x_3}’’≈0 }}$ ，即便不会是0也无法贡献太多。所以第二阶段重心加速度向上，支持力大于重力。<br>并且由于 $\mathit{\color{Orange}{ {x_3}’’  }}$ 的贡献很小，而 $\mathit{\color{Orange}{ {x_3}’  }}$ 和 $\mathit{\color{Orange}{ {x_3}’  }}$ 基本为恒定值，这是因为 $\mathit{\color{Orange}{ m_2 }}$ 的形态是不变的， $\mathit{\color{Orange}{ m_3 }}$ 减少的速度是恒定的，那么 $\mathit{\color{Orange}{ m_3 }}$ 的重心降低的速度也因为容器形状的原因基本恒定，所以这也解释了为什么第二段读数比较稳定。</p>
 <h2 id="第三阶段"><a href="#第三阶段" class="headerlink" title="第三阶段"></a>第三阶段</h2><p>回到上述式子</p>
 <p>$$<br>\mathit {X_c^{\prime\prime} &#x3D; {m_2^{\prime\prime}(x_2-x_3) + m_2(x_2^{\prime\prime} - x_3^{\prime\prime}) + 2m_2^{\prime}(x_2^{\prime} - x_3^{\prime})}&#x2F;M + x_3}<br>$$</p>
-<p>沙子漏完，<code>m3=0</code>，式子得到如下简化</p>
+<p>沙子漏完， $\mathit{\color{Orange}{ m_3 &#x3D; 0 }}$ ，式子得到如下简化</p>
 <p>$$<br>\mathit{X_c^{\prime\prime} &#x3D; ({m_2^{\prime\prime}x_2+2m_2^{\prime}x_2^{\prime}+m_2x_2^{\prime\prime}})&#x2F;M}<br>$$</p>
 <p>最后一段在空中的沙子是自由落体，相当于 $\mathit{\color{Orange}{ m_2 }}$ 的质量正比于长度，假设 $\mathit{\color{Orange}{ m_2 }}$ 为质量分布均匀的圆柱体，相当于两倍的重心位置，所以重心位置在中心部位，得：</p>
 <p>$$<br>\mathit{m_2&#x3D;2x_2\rho }<br>$$</p>
@@ -178,6 +129,35 @@
       </categories>
       <tags>
         <tag>interest</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率题</title>
+    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
+    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
+<span id="more"></span>
+
+<p>题目如下<br>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
+<p>解答如下</p>
+<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
+<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>两者相比</p>
+<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
+<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
+<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
+<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
+<p>以下想写一下，关于贝叶斯公式的推导过程</p>
+<p><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a></p>
+<p><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>数学</tag>
       </tags>
   </entry>
 </search>
