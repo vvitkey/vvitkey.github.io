@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>2017年普通高等学校招生全国统一考试（21题）</title>
+    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%20%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h3><span id="more"></span>
+
+<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p><br><br>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>（1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>（2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
+<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br><br><br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符合题意</p>
+<p>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符合题意</p>
+<p>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br><br>$ f^{\prime}(x) ： $</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>National Higher Education Entrance Examination</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2024年全新高考I卷</title>
+    <url>/2024/06/11/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%80%E5%8D%B7%20%E6%95%B0%E5%AD%A6%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="来自2024年普通高等学校招生全国统一考试"><a href="#来自2024年普通高等学校招生全国统一考试" class="headerlink" title="来自2024年普通高等学校招生全国统一考试"></a>来自2024年普通高等学校招生全国统一考试</h3><span id="more"></span>
+
+<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>设 $ m $ 为正整数，数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是公差不为 $ 0 $ 的等差数列，若从中删去两项 $ a_i $ 和 $ a_j $ （ $ i $ &lt; $ j $ ）后剩余的 $4m$ 项可被平均分为 $ m $ 组，且每组的4个数都能构成等差数列，则称数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （ $ i $，$ j $ ）—可分数列。<br><br><br>（1）写出所有 （ $ i $，$ j $ ）, $1≤i＜j≤6 $ ，使得 $ a_1， a_2, ··· ， a_6 $ 是 （ $ i $，$ j $ ） —可分数列；<br><br><br>（2）当 $ m ≥3 $ 时，证明：数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ 2 $, $ 13 $ ）—可分数列；<br><br><br>（3）从 $ 1， 2，··· ， 4m+2 $ 中一次任取两个数 $ i $ 和 $ j $ （$ i＜j $ ），记数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ i $ ，$ j $ ） —可分数列的概率为 $ P_m $ ，证明：$ P_m＞\frac{1}{8} $ </p>
+<p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
+<h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
+<p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值<br><img data-src="https://s2.loli.net/2024/06/11/as85exRrCTMuqN6.png" alt="WX20240611-163403@2x.png"><br>此时 $ g(x) &#x3D; -1 $ </p>
+<p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
+<p>(2）<br>定义域（ $ 0 $，$ 2 $ ），关于 $ x&#x3D;1 $ 对称，假设 $ f(x) $ 关于点 （ $ 1 $，$ m $ ）对称，则<br><br><br>$ f(x)+f(2-x)&#x3D; \ln{\frac{x}{2-x} } +ax+b(x-1)^{3}+\ln_{}{\frac{2-x}{x} } +a(2-x)+b(1-x)^{3} &#x3D; ax+2a-ax &#x3D; 2a $<br><br><br>则函数关于（ $ 1 $，$ a $ ）中心对称。</p>
+<p><code>中心对称的结论：当函数</code> $ f(x) $ <code>关于</code> $ (a，b) $ <code>对称</code>，<code>则</code> $ f(x)+f(2a-x)&#x3D;2b $</p>
+<p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
+<p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
+<p><br><br><br><br>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>（1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>（2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>National Higher Education Entrance Examination</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo+……</title>
     <url>/2024/05/17/hexo/</url>
     <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传慢慢遗弃，23年，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事</p>
@@ -194,29 +234,6 @@
       </categories>
       <tags>
         <tag>interest</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024年全新高考I卷 数学19题</title>
-    <url>/2024/06/11/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%80%E5%8D%B7%20%E6%95%B0%E5%AD%A619%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="来自2024年普通高等学校招生全国统一考试"><a href="#来自2024年普通高等学校招生全国统一考试" class="headerlink" title="来自2024年普通高等学校招生全国统一考试"></a>来自2024年普通高等学校招生全国统一考试</h3><span id="more"></span>
-
-<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>设 $ m $ 为正整数，数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是公差不为 $ 0 $ 的等差数列，若从中删去两项 $ a_i $ 和 $ a_j $ （ $ i $ &lt; $ j $ ）后剩余的 $4m$ 项可被平均分为 $ m $ 组，且每组的4个数都能构成等差数列，则称数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （ $ i $，$ j $ ）—可分数列。<br><br><br>（1）写出所有 （ $ i $，$ j $ ）, $1≤i＜j≤6 $ ，使得 $ a_1， a_2, ··· ， a_6 $ 是 （ $ i $，$ j $ ） —可分数列；<br><br><br>（2）当 $ m ≥3 $ 时，证明：数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ 2 $, $ 13 $ ）—可分数列；<br><br><br>（3）从 $ 1， 2，··· ， 4m+2 $ 中一次任取两个数 $ i $ 和 $ j $ （$ i＜j $ ），记数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ i $ ，$ j $ ） —可分数列的概率为 $ P_m $ ，证明：$ P_m＞\frac{1}{8} $ </p>
-<p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
-<h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
-<p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值<br><img data-src="https://s2.loli.net/2024/06/11/as85exRrCTMuqN6.png" alt="WX20240611-163403@2x.png"><br>此时 $ g(x) &#x3D; -1 $ </p>
-<p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
-<p>(2）<br>定义域（ $ 0 $，$ 2 $ ），关于 $ x&#x3D;1 $ 对称，假设 $ f(x) $ 关于点 （ $ 1 $，$ m $ ）对称，则<br><br><br>$ f(x)+f(2-x)&#x3D; \ln{\frac{x}{2-x} } +ax+b(x-1)^{3}+\ln_{}{\frac{2-x}{x} } +a(2-x)+b(1-x)^{3} &#x3D; ax+2a-ax &#x3D; 2a $<br><br><br>则函数关于（ $ 1 $，$ a $ ）中心对称。</p>
-<p><code>中心对称的结论：当函数</code> $ f(x) $ <code>关于</code> $ (a，b) $ <code>对称</code>，<code>则</code> $ f(x)+f(2a-x)&#x3D;2b $</p>
-<p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
-<p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
-<p><br><br><br><br>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>（1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>（2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>National Higher Education Entrance Examination</tag>
       </tags>
   </entry>
 </search>
