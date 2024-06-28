@@ -9,8 +9,7 @@
 <p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
 <h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
 <p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值</p>
-<p><img data-src="https://s2.loli.net/2024/06/11/as85exRrCTMuqN6.png" alt="WX20240611-163403@2x.png"></p>
-<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="300px">
+<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="650px">
 
 <p>此时 $ g(x) &#x3D; -1 $ </p>
 <p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
@@ -19,6 +18,24 @@
 <p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
 <p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
 <p><br><br><br>\</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>National Higher Education Entrance Examination</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2017年普通高等学校招生全国统一考试（21题）</title>
+    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h2><span id="more"></span>
+
+<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>(1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>(2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
+<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符题意<br><br>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符题意<br><br>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br>$ f^{\prime}(x) $ 图像如下（此处只展示<code>a</code>的变化并且以<code>0.1</code>为一个跨度）:<br><video width="533" height="400" controls><br>  <source src="/videos/myvideo.mp4" type="video/mp4"><br></video></p>
+<p>$ f(x) $ 在 （$ 0&lt;x&lt;a $）单减，在 （$ x&gt;a $）单增，并且在 $ x&#x3D;a $ 取得极小值，又 $ f(x) \geqslant 0 $<br>带入<code>a</code>，$ a-1-a\ln{a} &#x3D;0 → a &#x3D; 0 $</p>
+<p>$ f(x) $ 随着<code>a</code>的变化图像如下<br><video width="533" height="400" controls><br>  <source src="/videos/2.mp4" type="video/mp4"><br></video></p>
+<p>(2）<br>这里考虑基本缩放 $ \ln{x} + 1 \leqslant x $<br><br><br><img data-src="/images/2.png" alt="描述" height="650px"><br>如果记不住本题第一问也提示了<br><br>当 $ a&#x3D;1 $ 的时候 $ f(x) \geqslant 0 $，得到 $ x-1 \geqslant \ln{x} $， 令 $ x&#x3D;x+1 →\ln{(x+1)}\leqslant x $<br><br><br>两边同时取对数<br><br>$ \ln{(1+\frac{1}{2} )} + \ln{(1+\frac{1}{2^{2}})} +···+ \ln{(1+\frac{1}{2^{n}})} \leqslant \frac{1}{2} + \frac{1}{2^{2}} +···+ \frac{1}{2^{n}} &#x3D; 1- \frac{1}{2^{n}} \leqslant 1$<br><br><br>则 $ (1+\frac{1}{2} )(1+\frac{1}{2^{2}})···（1+ \frac{1}{2^{n}}）\leqslant e $<br><br><br><code>m</code>最小值为<code>3</code>。</p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -132,53 +149,6 @@
       </tags>
   </entry>
   <entry>
-    <title>概率题</title>
-    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
-    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
-<span id="more"></span>
-
-<h1 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h1><p>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
-<p>解答如下</p>
-<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
-<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>两者相比</p>
-<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
-<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
-<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
-<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
-<h1 id="以下想写一下，关于贝叶斯公式的推导过程"><a href="#以下想写一下，关于贝叶斯公式的推导过程" class="headerlink" title="以下想写一下，关于贝叶斯公式的推导过程"></a>以下想写一下，关于贝叶斯公式的推导过程</h1><p>三件事情记住贝叶斯:</p>
-<p>我们现在经常用到的统计学一些基础理论和原理是贝叶斯发明的，而他的职业是<strong>牧师</strong>，业余数学家<br>为了证明’上帝’的存在，他发明了概率统计学原理<br>贝叶斯定理当然是贝叶斯发明的，叫贝叶斯定理当然也是为了纪念<strong>神的男人–贝叶斯</strong></p>
-<h3 id="贝叶斯定理推导"><a href="#贝叶斯定理推导" class="headerlink" title="贝叶斯定理推导"></a>贝叶斯定理推导</h3><p>曲奇饼问题:假设有两碗饼干，<code>碗1</code>中有30个<code>香草饼干</code>和10个<code>巧克力饼干</code>，<code>碗2</code>中含有<code>香草和巧克力</code>饼干各20个.随机的从一个碗中拿一块饼干，拿到的饼干是香草口味，问: 拿到<code>香草饼干</code>是从<code>碗1</code>中拿的概率是多少?</p>
-<p>条件概率: $\mathit{\color{Orange}{\small P（A \mid B)}}$, 在事件B发生的情况下，A事件发生的概率</p>
-<p>上述问题: 拿到香草饼干是从A碗中取得概率是多少?</p>
-<p>可以用条件概率表述为: $\mathit{\color{Orange}{\small P（碗1 \mid 一块香草饼干) &#x3D; ? }}$ </p>
-<p>假设: <code>A</code>表示拿到的一块饼干是香草饼干的概率，<code>B</code>表示拿到的饼干是从碗1中拿的概率，那么我们的问题可以表述为: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; ? }}$</p>
-<p>得到: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 30&#x2F;40 &#x3D; 0.75 }}$</p>
-<p>我们可以根据上面的假设，我们可以轻易的知道:<br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 50&#x2F;80 &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
-<p>如果我们能够把 $\mathit{\color{Orange}{\small P（B \mid A) }}$ 转换为已知解的问题那就好办了，但是怎么转换呢?</p>
-<p>联合概率: $\mathit{\color{Orange}{\small P（AB) &#x3D; }}$  P(AB), 事件<code>A</code>和事件<code>B</code>都发生的概率：</p>
-<p>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) }}$ ，事件<code>A</code>和事件<code>B</code>都发生的概率称之为事件A和事件B的联合概率<br>事件A和事件B不相互独立,如果事件A和事件B相互独立， $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$<br>根据联合概率的乘积可交换： $\mathit{\color{Orange}{\small P（AB) &#x3D; P(BA) —————(1) }}$<br><br>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) ——(2) }}$<br><br>$\mathit{\color{Orange}{\small P（BA) &#x3D; P(B)P(A|B) ——(3) }}$<br><br>根据（1），（2），（3）：$\mathit{\color{Orange}{\small P(A)P(B|A) &#x3D; P(B)P(A|B) ——(2) }}$ </p>
-<p>得到贝叶斯定理<br>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$<br><br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; P（A）\frac{P（B \mid A)}{P（B）}  }}$ </p>
-<p>回过头看看问题: $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; ? }}$ </p>
-<p>根据 $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$ ，其中：</p>
-<p>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
-<p>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; (1&#x2F;2 * 3&#x2F;4)&#x2F;(5&#x2F;8) &#x3D; 3&#x2F;5 }}$ </p>
-<p><a href="https://blog.csdn.net/m0_37443131/article/details/81298997">https://blog.csdn.net/m0_37443131/article/details/81298997</a></p>
-<p><a href="https://zh.wikipedia.org/wiki/%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87">维基百科对于条件概率的定义</a></p>
-<p>这里博主有点菜，一直想的都是 $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$ ，是因为我们现实想到的例子基本都是独立事件，两者没有联系，容易被误导，上述公式是独立事件才存在的</p>
-<p>以下为Markdown<br><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a><br><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
-]]></content>
-      <categories>
-        <category>技术</category>
-      </categories>
-      <tags>
-        <tag>数学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>沙漏下落</title>
     <url>/2022/09/10/%E6%B2%99%E6%BC%8F%E4%B8%8B%E8%90%BD/</url>
     <content><![CDATA[<p>来自一道物理竞赛题，沙漏下面有一精准的称，沙漏下落的时候，称开始显示读数，直到沙子漏完，读数分为如下三个阶段。</p>
@@ -252,24 +222,50 @@
       </tags>
   </entry>
   <entry>
-    <title>2017年普通高等学校招生全国统一考试（21题）</title>
-    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h3><span id="more"></span>
+    <title>概率题</title>
+    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
+    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
+<span id="more"></span>
 
-<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p><br><br>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>（1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>（2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
-<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br><br><br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符合题意</p>
-<p>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符合题意</p>
-<p>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br>$ f^{\prime}(x) $ 图像如下（此处只展示<code>a</code>的变化并且以<code>0.1</code>为一个跨度:</p>
-<video width="533" height="400" controls>
-  <source src="/videos/myvideo.mp4" type="video/mp4">
-</video>
-
+<h1 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h1><p>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
+<p>解答如下</p>
+<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
+<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>两者相比</p>
+<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
+<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
+<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
+<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
+<h1 id="以下想写一下，关于贝叶斯公式的推导过程"><a href="#以下想写一下，关于贝叶斯公式的推导过程" class="headerlink" title="以下想写一下，关于贝叶斯公式的推导过程"></a>以下想写一下，关于贝叶斯公式的推导过程</h1><p>三件事情记住贝叶斯:</p>
+<p>我们现在经常用到的统计学一些基础理论和原理是贝叶斯发明的，而他的职业是<strong>牧师</strong>，业余数学家<br>为了证明’上帝’的存在，他发明了概率统计学原理<br>贝叶斯定理当然是贝叶斯发明的，叫贝叶斯定理当然也是为了纪念<strong>神的男人–贝叶斯</strong></p>
+<h3 id="贝叶斯定理推导"><a href="#贝叶斯定理推导" class="headerlink" title="贝叶斯定理推导"></a>贝叶斯定理推导</h3><p>曲奇饼问题:假设有两碗饼干，<code>碗1</code>中有30个<code>香草饼干</code>和10个<code>巧克力饼干</code>，<code>碗2</code>中含有<code>香草和巧克力</code>饼干各20个.随机的从一个碗中拿一块饼干，拿到的饼干是香草口味，问: 拿到<code>香草饼干</code>是从<code>碗1</code>中拿的概率是多少?</p>
+<p>条件概率: $\mathit{\color{Orange}{\small P（A \mid B)}}$, 在事件B发生的情况下，A事件发生的概率</p>
+<p>上述问题: 拿到香草饼干是从A碗中取得概率是多少?</p>
+<p>可以用条件概率表述为: $\mathit{\color{Orange}{\small P（碗1 \mid 一块香草饼干) &#x3D; ? }}$ </p>
+<p>假设: <code>A</code>表示拿到的一块饼干是香草饼干的概率，<code>B</code>表示拿到的饼干是从碗1中拿的概率，那么我们的问题可以表述为: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; ? }}$</p>
+<p>得到: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 30&#x2F;40 &#x3D; 0.75 }}$</p>
+<p>我们可以根据上面的假设，我们可以轻易的知道:<br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 50&#x2F;80 &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
+<p>如果我们能够把 $\mathit{\color{Orange}{\small P（B \mid A) }}$ 转换为已知解的问题那就好办了，但是怎么转换呢?</p>
+<p>联合概率: $\mathit{\color{Orange}{\small P（AB) &#x3D; }}$  P(AB), 事件<code>A</code>和事件<code>B</code>都发生的概率：</p>
+<p>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) }}$ ，事件<code>A</code>和事件<code>B</code>都发生的概率称之为事件A和事件B的联合概率<br>事件A和事件B不相互独立,如果事件A和事件B相互独立， $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$<br>根据联合概率的乘积可交换： $\mathit{\color{Orange}{\small P（AB) &#x3D; P(BA) —————(1) }}$<br><br>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) ——(2) }}$<br><br>$\mathit{\color{Orange}{\small P（BA) &#x3D; P(B)P(A|B) ——(3) }}$<br><br>根据（1），（2），（3）：$\mathit{\color{Orange}{\small P(A)P(B|A) &#x3D; P(B)P(A|B) ——(2) }}$ </p>
+<p>得到贝叶斯定理<br>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$<br><br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; P（A）\frac{P（B \mid A)}{P（B）}  }}$ </p>
+<p>回过头看看问题: $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; ? }}$ </p>
+<p>根据 $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$ ，其中：</p>
+<p>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
+<p>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; (1&#x2F;2 * 3&#x2F;4)&#x2F;(5&#x2F;8) &#x3D; 3&#x2F;5 }}$ </p>
+<p><a href="https://blog.csdn.net/m0_37443131/article/details/81298997">https://blog.csdn.net/m0_37443131/article/details/81298997</a></p>
+<p><a href="https://zh.wikipedia.org/wiki/%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87">维基百科对于条件概率的定义</a></p>
+<p>这里博主有点菜，一直想的都是 $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$ ，是因为我们现实想到的例子基本都是独立事件，两者没有联系，容易被误导，上述公式是独立事件才存在的</p>
+<p>以下为Markdown<br><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a><br><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
 ]]></content>
       <categories>
-        <category>Math</category>
+        <category>技术</category>
       </categories>
       <tags>
-        <tag>National Higher Education Entrance Examination</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
 </search>
