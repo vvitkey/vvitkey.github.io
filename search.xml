@@ -1,23 +1,98 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2017年普通高等学校招生全国统一考试（21题）</title>
-    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h3><span id="more"></span>
+    <title>2024年全新高考I卷</title>
+    <url>/2024/06/11/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%80%E5%8D%B7%20%E6%95%B0%E5%AD%A6%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="来自2024年普通高等学校招生全国统一考试"><a href="#来自2024年普通高等学校招生全国统一考试" class="headerlink" title="来自2024年普通高等学校招生全国统一考试"></a>来自2024年普通高等学校招生全国统一考试</h3><span id="more"></span>
 
-<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p><br><br>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>（1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>（2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
-<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br><br><br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符合题意</p>
-<p>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符合题意</p>
-<p>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br>$ f^{\prime}(x) $ :</p>
-<video width="400" height="300" controls>
-  <source src="/videos/myvideo.mp4" type="video/mp4">
-</video>
+<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>设 $ m $ 为正整数，数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是公差不为 $ 0 $ 的等差数列，若从中删去两项 $ a_i $ 和 $ a_j $ （ $ i $ &lt; $ j $ ）后剩余的 $4m$ 项可被平均分为 $ m $ 组，且每组的4个数都能构成等差数列，则称数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （ $ i $，$ j $ ）—可分数列。<br><br><br>（1）写出所有 （ $ i $，$ j $ ）, $1≤i＜j≤6 $ ，使得 $ a_1， a_2, ··· ， a_6 $ 是 （ $ i $，$ j $ ） —可分数列；<br><br><br>（2）当 $ m ≥3 $ 时，证明：数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ 2 $, $ 13 $ ）—可分数列；<br><br><br>（3）从 $ 1， 2，··· ， 4m+2 $ 中一次任取两个数 $ i $ 和 $ j $ （$ i＜j $ ），记数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ i $ ，$ j $ ） —可分数列的概率为 $ P_m $ ，证明：$ P_m＞\frac{1}{8} $ </p>
+<p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
+<h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
+<p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值</p>
+<p><img data-src="https://s2.loli.net/2024/06/11/as85exRrCTMuqN6.png" alt="WX20240611-163403@2x.png"></p>
+<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="300px">
+
+<p>此时 $ g(x) &#x3D; -1 $ </p>
+<p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
+<p>(2）<br>定义域（ $ 0 $，$ 2 $ ），关于 $ x&#x3D;1 $ 对称，假设 $ f(x) $ 关于点 （ $ 1 $，$ m $ ）对称，则<br><br><br>$ f(x)+f(2-x)&#x3D; \ln{\frac{x}{2-x} } +ax+b(x-1)^{3}+\ln_{}{\frac{2-x}{x} } +a(2-x)+b(1-x)^{3} &#x3D; ax+2a-ax &#x3D; 2a $<br><br><br>则函数关于（ $ 1 $，$ a $ ）中心对称。</p>
+<p><code>中心对称的结论：当函数</code> $ f(x) $ <code>关于</code> $ (a，b) $ <code>对称</code>，<code>则</code> $ f(x)+f(2a-x)&#x3D;2b $</p>
+<p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
+<p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
+<p><br><br><br>\</p>
 ]]></content>
       <categories>
         <category>Math</category>
       </categories>
       <tags>
         <tag>National Higher Education Entrance Examination</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo+……</title>
+    <url>/2024/05/17/hexo/</url>
+    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传慢慢遗弃，23年，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事</p>
+<span id="more"></span>
+
+<p>温馨提示<br>以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>————	#安装Nodejs<br>node -v	#查看node版本<br>npm -v	#查看npm版本<br>npm install -g cnpm –registry&#x3D;<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>	#安装淘宝的cnpm 管理器<br>cnpm -v	#查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v	#查看hexo版本<br>mkdir blog	#创建blog目录<br>cd blog	 #进入blog目录<br>sudo hexo init 	#生成博客 初始化博客<br>hexo s	#启动本地博客服务<br><a href="http://localhost:4000/">http://localhost:4000/</a>	#本地访问地址<br>hexo n “我的第一篇文章” #创建新的文章<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成<br>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件</p>
+<h3 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line"> 		<span class="built_in">type</span>: git</span><br><span class="line">		repo: https://github.com/YourGithubName/YourGithubName.github.io.git</span><br><span class="line"> 		branch: master</span><br></pre></td></tr></table></figure>
+
+<p>hexo d	#部署到Github仓库里<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #访问这个地址可以查看博客</p>
+<p> git clone <a href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes&#x2F;yilia  #下载yilia主题到本地</p>
+<p>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</p>
+<p>hexo c	#清理一下<br>hexo g	#生成<br>hexo d	#部署到远程Github仓库<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #查看博客</p>
+<h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
+
+<p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
+<h1 id="导致端口占用问题"><a href="#导致端口占用问题" class="headerlink" title="导致端口占用问题"></a>导致端口占用问题</h1><p><code>hexo s</code>代码之后，忘记<code>Ctrl+c</code>结束本地预览，导致端口占用问题，常规hexo会占用4000端口，执行代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lsof -i tcp:<span class="number">4000</span> <span class="comment">#这里哪个端口被占用了就填对应端口</span></span><br></pre></td></tr></table></figure>
+<p>博主出现上述代码，可知我的PID是73321。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">COMMAND   PID USER   FD   TYPE            DEVICE SIZE/OFF NODE NAME</span><br><span class="line">node    <span class="number">73321</span> root   36u  IPv6 <span class="number">0x2a2387f854347db</span>      0t0  TCP *:terabase (LISTEN)</span><br></pre></td></tr></table></figure>
+<p>执行命令<code>kill -9 73321</code>即可。</p>
+<h1 id="无法上传问题"><a href="#无法上传问题" class="headerlink" title="无法上传问题"></a>无法上传问题</h1><p>执行代码<code>hexo d</code>出现如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">err: Error: Spawn failed at ChildProcess.&lt;anonymous&gt;</span><br></pre></td></tr></table></figure>
+
+<p>出现这串代码主要是网络问题，博主是怎么都无法上传，后来想到更换一种上传方式，解决办法如下</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">## 修改</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
+
+
+<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)</p>
+<p><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
+<video src="/videos/myvideo.mp4" preload="metadata" controls playsinline poster="">Sorry, your browser does not support the video tag.</video>
+
+<video width="400" height="300" controls>
+  <source src="/videos/myvideo.mp4" type="video/mp4">
+</video>
+
+<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="300px">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -57,70 +132,50 @@
       </tags>
   </entry>
   <entry>
-    <title>hexo+……</title>
-    <url>/2024/05/17/hexo/</url>
-    <content><![CDATA[<p>22年弄好<a href="https://hexo.io/">hexo</a>搭建的github博客，因为台式系统损坏无法上传慢慢遗弃，23年，想转移博客，但迟迟不成。最近想到复活它，所以有了以下故事</p>
+    <title>概率题</title>
+    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
+    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
 <span id="more"></span>
 
-<p>温馨提示<br>以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>————	#安装Nodejs<br>node -v	#查看node版本<br>npm -v	#查看npm版本<br>npm install -g cnpm –registry&#x3D;<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>	#安装淘宝的cnpm 管理器<br>cnpm -v	#查看cnpm版本<br>cnpm install -g hexo-cli    #安装hexo框架<br>hexo -v	#查看hexo版本<br>mkdir blog	#创建blog目录<br>cd blog	 #进入blog目录<br>sudo hexo init 	#生成博客 初始化博客<br>hexo s	#启动本地博客服务<br><a href="http://localhost:4000/">http://localhost:4000/</a>	#本地访问地址<br>hexo n “我的第一篇文章” #创建新的文章<br>#返回blog目录<br>hexo clean #清理<br>hexo g #生成<br>#Github创建一个新的仓库 YourGithubName.github.io<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件</p>
-<h3 id="配置-config-yml"><a href="#配置-config-yml" class="headerlink" title="配置_config.yml"></a>配置_config.yml</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></span><br><span class="line">deploy:</span><br><span class="line"> 		<span class="built_in">type</span>: git</span><br><span class="line">		repo: https://github.com/YourGithubName/YourGithubName.github.io.git</span><br><span class="line"> 		branch: master</span><br></pre></td></tr></table></figure>
-
-<p>hexo d	#部署到Github仓库里<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #访问这个地址可以查看博客</p>
-<p> git clone <a href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes&#x2F;yilia  #下载yilia主题到本地</p>
-<p>#修改hexo根目录下的 _config.yml 文件 ： theme: yilia</p>
-<p>hexo c	#清理一下<br>hexo g	#生成<br>hexo d	#部署到远程Github仓库<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #查看博客</p>
-<h1 id="选取文字修改"><a href="#选取文字修改" class="headerlink" title="选取文字修改"></a>选取文字修改</h1><p>这个问题我找了好久，就是想更换鼠标选择文字的背景跟文字颜色，不知道在哪里调整，网上也搜不到，直到我看到了<code>Selection</code>……<br>在<code>/Volumes/自己/blog/themes/next/source/css/_variables</code>目录下的<code>base.styl</code>中找到</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">// Selection</span><br><span class="line">$selection-bg                 = <span class="comment">#D4F2E7	; //候选字背景颜色</span></span><br><span class="line">$selection-color              = <span class="comment">#DB7093	; //候选字颜色</span></span><br></pre></td></tr></table></figure>
-
-<p>这里可以直接更改颜色，十六进制三位或者六位（前端空格+井号）这里提供一个查询<a href="https://photokit.com/colors/color-finder/?lang=zh">网址</a>；</p>
-<h1 id="导致端口占用问题"><a href="#导致端口占用问题" class="headerlink" title="导致端口占用问题"></a>导致端口占用问题</h1><p><code>hexo s</code>代码之后，忘记<code>Ctrl+c</code>结束本地预览，导致端口占用问题，常规hexo会占用4000端口，执行代码</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">lsof -i tcp:<span class="number">4000</span> <span class="comment">#这里哪个端口被占用了就填对应端口</span></span><br></pre></td></tr></table></figure>
-<p>博主出现上述代码，可知我的PID是73321。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">COMMAND   PID USER   FD   TYPE            DEVICE SIZE/OFF NODE NAME</span><br><span class="line">node    <span class="number">73321</span> root   36u  IPv6 <span class="number">0x2a2387f854347db</span>      0t0  TCP *:terabase (LISTEN)</span><br></pre></td></tr></table></figure>
-<p>执行命令<code>kill -9 73321</code>即可。</p>
-<h1 id="无法上传问题"><a href="#无法上传问题" class="headerlink" title="无法上传问题"></a>无法上传问题</h1><p>执行代码<code>hexo d</code>出现如下代码</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">err: Error: Spawn failed at ChildProcess.&lt;anonymous&gt;</span><br></pre></td></tr></table></figure>
-
-<p>出现这串代码主要是网络问题，博主是怎么都无法上传，后来想到更换一种上传方式，解决办法如下</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">## 修改</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: https://github.com/yourname/yourname.github.io.git -&gt; git@github.com:yourname/yourname.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">  //例：https://github.com/vvitkey/vvitkey.github.io.git -&gt; git@github.com:vvitkey/vvitkey.github.io.git</span><br></pre></td></tr></table></figure>
-
-
-<p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)</p>
-<p><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
+<h1 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h1><p>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
+<p>解答如下</p>
+<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
+<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
+<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
+<p>两者相比</p>
+<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
+<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
+<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
+<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
+<h1 id="以下想写一下，关于贝叶斯公式的推导过程"><a href="#以下想写一下，关于贝叶斯公式的推导过程" class="headerlink" title="以下想写一下，关于贝叶斯公式的推导过程"></a>以下想写一下，关于贝叶斯公式的推导过程</h1><p>三件事情记住贝叶斯:</p>
+<p>我们现在经常用到的统计学一些基础理论和原理是贝叶斯发明的，而他的职业是<strong>牧师</strong>，业余数学家<br>为了证明’上帝’的存在，他发明了概率统计学原理<br>贝叶斯定理当然是贝叶斯发明的，叫贝叶斯定理当然也是为了纪念<strong>神的男人–贝叶斯</strong></p>
+<h3 id="贝叶斯定理推导"><a href="#贝叶斯定理推导" class="headerlink" title="贝叶斯定理推导"></a>贝叶斯定理推导</h3><p>曲奇饼问题:假设有两碗饼干，<code>碗1</code>中有30个<code>香草饼干</code>和10个<code>巧克力饼干</code>，<code>碗2</code>中含有<code>香草和巧克力</code>饼干各20个.随机的从一个碗中拿一块饼干，拿到的饼干是香草口味，问: 拿到<code>香草饼干</code>是从<code>碗1</code>中拿的概率是多少?</p>
+<p>条件概率: $\mathit{\color{Orange}{\small P（A \mid B)}}$, 在事件B发生的情况下，A事件发生的概率</p>
+<p>上述问题: 拿到香草饼干是从A碗中取得概率是多少?</p>
+<p>可以用条件概率表述为: $\mathit{\color{Orange}{\small P（碗1 \mid 一块香草饼干) &#x3D; ? }}$ </p>
+<p>假设: <code>A</code>表示拿到的一块饼干是香草饼干的概率，<code>B</code>表示拿到的饼干是从碗1中拿的概率，那么我们的问题可以表述为: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; ? }}$</p>
+<p>得到: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 30&#x2F;40 &#x3D; 0.75 }}$</p>
+<p>我们可以根据上面的假设，我们可以轻易的知道:<br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 50&#x2F;80 &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
+<p>如果我们能够把 $\mathit{\color{Orange}{\small P（B \mid A) }}$ 转换为已知解的问题那就好办了，但是怎么转换呢?</p>
+<p>联合概率: $\mathit{\color{Orange}{\small P（AB) &#x3D; }}$  P(AB), 事件<code>A</code>和事件<code>B</code>都发生的概率：</p>
+<p>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) }}$ ，事件<code>A</code>和事件<code>B</code>都发生的概率称之为事件A和事件B的联合概率<br>事件A和事件B不相互独立,如果事件A和事件B相互独立， $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$<br>根据联合概率的乘积可交换： $\mathit{\color{Orange}{\small P（AB) &#x3D; P(BA) —————(1) }}$<br><br>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) ——(2) }}$<br><br>$\mathit{\color{Orange}{\small P（BA) &#x3D; P(B)P(A|B) ——(3) }}$<br><br>根据（1），（2），（3）：$\mathit{\color{Orange}{\small P(A)P(B|A) &#x3D; P(B)P(A|B) ——(2) }}$ </p>
+<p>得到贝叶斯定理<br>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$<br><br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; P（A）\frac{P（B \mid A)}{P（B）}  }}$ </p>
+<p>回过头看看问题: $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; ? }}$ </p>
+<p>根据 $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$ ，其中：</p>
+<p>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
+<p>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; (1&#x2F;2 * 3&#x2F;4)&#x2F;(5&#x2F;8) &#x3D; 3&#x2F;5 }}$ </p>
+<p><a href="https://blog.csdn.net/m0_37443131/article/details/81298997">https://blog.csdn.net/m0_37443131/article/details/81298997</a></p>
+<p><a href="https://zh.wikipedia.org/wiki/%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87">维基百科对于条件概率的定义</a></p>
+<p>这里博主有点菜，一直想的都是 $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$ ，是因为我们现实想到的例子基本都是独立事件，两者没有联系，容易被误导，上述公式是独立事件才存在的</p>
+<p>以下为Markdown<br><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a><br><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
 ]]></content>
       <categories>
         <category>技术</category>
       </categories>
       <tags>
-        <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>2024年全新高考I卷</title>
-    <url>/2024/06/11/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%80%E5%8D%B7%20%E6%95%B0%E5%AD%A6%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="来自2024年普通高等学校招生全国统一考试"><a href="#来自2024年普通高等学校招生全国统一考试" class="headerlink" title="来自2024年普通高等学校招生全国统一考试"></a>来自2024年普通高等学校招生全国统一考试</h3><span id="more"></span>
-
-<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>设 $ m $ 为正整数，数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是公差不为 $ 0 $ 的等差数列，若从中删去两项 $ a_i $ 和 $ a_j $ （ $ i $ &lt; $ j $ ）后剩余的 $4m$ 项可被平均分为 $ m $ 组，且每组的4个数都能构成等差数列，则称数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （ $ i $，$ j $ ）—可分数列。<br><br><br>（1）写出所有 （ $ i $，$ j $ ）, $1≤i＜j≤6 $ ，使得 $ a_1， a_2, ··· ， a_6 $ 是 （ $ i $，$ j $ ） —可分数列；<br><br><br>（2）当 $ m ≥3 $ 时，证明：数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ 2 $, $ 13 $ ）—可分数列；<br><br><br>（3）从 $ 1， 2，··· ， 4m+2 $ 中一次任取两个数 $ i $ 和 $ j $ （$ i＜j $ ），记数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ i $ ，$ j $ ） —可分数列的概率为 $ P_m $ ，证明：$ P_m＞\frac{1}{8} $ </p>
-<p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
-<h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
-<p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值</p>
-<p><img data-src="https://s2.loli.net/2024/06/11/as85exRrCTMuqN6.png" alt="WX20240611-163403@2x.png"></p>
-<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="300px">
-
-<p>此时 $ g(x) &#x3D; -1 $ </p>
-<p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
-<p>(2）<br>定义域（ $ 0 $，$ 2 $ ），关于 $ x&#x3D;1 $ 对称，假设 $ f(x) $ 关于点 （ $ 1 $，$ m $ ）对称，则<br><br><br>$ f(x)+f(2-x)&#x3D; \ln{\frac{x}{2-x} } +ax+b(x-1)^{3}+\ln_{}{\frac{2-x}{x} } +a(2-x)+b(1-x)^{3} &#x3D; ax+2a-ax &#x3D; 2a $<br><br><br>则函数关于（ $ 1 $，$ a $ ）中心对称。</p>
-<p><code>中心对称的结论：当函数</code> $ f(x) $ <code>关于</code> $ (a，b) $ <code>对称</code>，<code>则</code> $ f(x)+f(2a-x)&#x3D;2b $</p>
-<p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
-<p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
-<p><br><br><br>\</p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>National Higher Education Entrance Examination</tag>
+        <tag>数学</tag>
       </tags>
   </entry>
   <entry>
@@ -197,50 +252,24 @@
       </tags>
   </entry>
   <entry>
-    <title>概率题</title>
-    <url>/2024/04/29/%E6%A6%82%E7%8E%87/</url>
-    <content><![CDATA[<p>一道关于初识贝叶斯公式的概率题</p>
-<span id="more"></span>
+    <title>2017年普通高等学校招生全国统一考试（21题）</title>
+    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h3><span id="more"></span>
 
-<h1 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h1><p>现在假定我们可以进行一个新的但是并不完善的诊断试验，以B表示“试验表示患病”事件。那么在某人患病时“试验表明患病”的条件概率是:${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>在这个人无此病的条件下，相应的概率是：<br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$<br><br>若随机抽取一个人进行测试，结果表明此人患病，那么这个人实际上真正患病的概率是多少？（此病发病率为<code>1%</code>）</p>
-<p>解答如下</p>
-<p>$$<br>{\mathit{\small P（B丨A_1) &#x3D; \frac{P（A_1 \mid B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small P（B丨A_2) &#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>由题得<br>${\mathit{\color{Orange}{\small P（B丨A_1) &#x3D; 0.97 }}}$<br><br>${\mathit{\color{Orange}{\small P（B丨A_2) &#x3D; 0.05 }}}$</p>
-<p>$$<br>{\mathit{\small 0.97&#x3D; \frac{P（A_1丨B)}{P（A_1）}P(B) }}<br>$$</p>
-<p>$$<br>{\mathit{\small 0.05&#x3D; \frac{P（A_2丨B)}{P（A_2）}P(B) }}<br>$$</p>
-<p>两者相比</p>
-<p>$$<br>{\mathit{\small \frac{0.97}{0.05} &#x3D; \frac{P（A_1丨B)}{P（A_2丨B)}\frac{P(A_2)}{P(A_1)} }}<br>$$</p>
-<p>患病概率为<code>1%</code>，得${\mathit{\color{Orange}{\small P（A_1) &#x3D; 0.01 ， }}}$ ${\mathit{\color{Orange}{\small P（A_2) &#x3D; 0.99 }}}$</p>
-<p>${\mathit{\color{Orange}{\small P（A_1 \mid B) ， }}}$ ${\mathit{\color{Orange}{\small P（A_2 \mid B) }}}$ ，分别表示在机器检测得病，真正得病的概率和在机器检测得病下不得病的概率，得两者相加为1。</p>
-<p>解方程得 ${\mathit{\color{Orange}{\small P（A_1 \mid B)&#x3D;0.16 }}}$</p>
-<h1 id="以下想写一下，关于贝叶斯公式的推导过程"><a href="#以下想写一下，关于贝叶斯公式的推导过程" class="headerlink" title="以下想写一下，关于贝叶斯公式的推导过程"></a>以下想写一下，关于贝叶斯公式的推导过程</h1><p>三件事情记住贝叶斯:</p>
-<p>我们现在经常用到的统计学一些基础理论和原理是贝叶斯发明的，而他的职业是<strong>牧师</strong>，业余数学家<br>为了证明’上帝’的存在，他发明了概率统计学原理<br>贝叶斯定理当然是贝叶斯发明的，叫贝叶斯定理当然也是为了纪念<strong>神的男人–贝叶斯</strong></p>
-<h3 id="贝叶斯定理推导"><a href="#贝叶斯定理推导" class="headerlink" title="贝叶斯定理推导"></a>贝叶斯定理推导</h3><p>曲奇饼问题:假设有两碗饼干，<code>碗1</code>中有30个<code>香草饼干</code>和10个<code>巧克力饼干</code>，<code>碗2</code>中含有<code>香草和巧克力</code>饼干各20个.随机的从一个碗中拿一块饼干，拿到的饼干是香草口味，问: 拿到<code>香草饼干</code>是从<code>碗1</code>中拿的概率是多少?</p>
-<p>条件概率: $\mathit{\color{Orange}{\small P（A \mid B)}}$, 在事件B发生的情况下，A事件发生的概率</p>
-<p>上述问题: 拿到香草饼干是从A碗中取得概率是多少?</p>
-<p>可以用条件概率表述为: $\mathit{\color{Orange}{\small P（碗1 \mid 一块香草饼干) &#x3D; ? }}$ </p>
-<p>假设: <code>A</code>表示拿到的一块饼干是香草饼干的概率，<code>B</code>表示拿到的饼干是从碗1中拿的概率，那么我们的问题可以表述为: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; ? }}$</p>
-<p>得到: $\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 30&#x2F;40 &#x3D; 0.75 }}$</p>
-<p>我们可以根据上面的假设，我们可以轻易的知道:<br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 50&#x2F;80 &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
-<p>如果我们能够把 $\mathit{\color{Orange}{\small P（B \mid A) }}$ 转换为已知解的问题那就好办了，但是怎么转换呢?</p>
-<p>联合概率: $\mathit{\color{Orange}{\small P（AB) &#x3D; }}$  P(AB), 事件<code>A</code>和事件<code>B</code>都发生的概率：</p>
-<p>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) }}$ ，事件<code>A</code>和事件<code>B</code>都发生的概率称之为事件A和事件B的联合概率<br>事件A和事件B不相互独立,如果事件A和事件B相互独立， $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$<br>根据联合概率的乘积可交换： $\mathit{\color{Orange}{\small P（AB) &#x3D; P(BA) —————(1) }}$<br><br>$\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B|A) ——(2) }}$<br><br>$\mathit{\color{Orange}{\small P（BA) &#x3D; P(B)P(A|B) ——(3) }}$<br><br>根据（1），（2），（3）：$\mathit{\color{Orange}{\small P(A)P(B|A) &#x3D; P(B)P(A|B) ——(2) }}$ </p>
-<p>得到贝叶斯定理<br>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$<br><br>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; P（A）\frac{P（B \mid A)}{P（B）}  }}$ </p>
-<p>回过头看看问题: $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; ? }}$ </p>
-<p>根据 $\mathit{\color{Orange}{\small P（B \mid A) &#x3D; P（B）\frac{P（A \mid B)}{P（A）}  }}$ ，其中：</p>
-<p>$\mathit{\color{Orange}{\small P（A \mid B) &#x3D; 3&#x2F;4 }}$ :从碗1中拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（A) &#x3D; 5&#x2F;8 }}$ : 拿到香草饼干的概率<br><br>$\mathit{\color{Orange}{\small P（B) &#x3D; 1&#x2F;2 }}$ : 拿到的饼干是从碗1中拿的概率</p>
-<p>$\mathit{\color{Orange}{\small P（B \mid A) &#x3D; (1&#x2F;2 * 3&#x2F;4)&#x2F;(5&#x2F;8) &#x3D; 3&#x2F;5 }}$ </p>
-<p><a href="https://blog.csdn.net/m0_37443131/article/details/81298997">https://blog.csdn.net/m0_37443131/article/details/81298997</a></p>
-<p><a href="https://zh.wikipedia.org/wiki/%E6%9D%A1%E4%BB%B6%E6%A6%82%E7%8E%87">维基百科对于条件概率的定义</a></p>
-<p>这里博主有点菜，一直想的都是 $\mathit{\color{Orange}{\small P（AB) &#x3D; P(A)P(B) }}$ ，是因为我们现实想到的例子基本都是独立事件，两者没有联系，容易被误导，上述公式是独立事件才存在的</p>
-<p>以下为Markdown<br><a href="https://www.zybuluo.com/codeep/note/163962">https://www.zybuluo.com/codeep/note/163962</a><br><a href="https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/">https://juniorprincewang.github.io/2017/08/01/hexo-MarkDown/</a></p>
+<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p><br><br>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>（1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>（2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
+<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br><br><br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符合题意</p>
+<p>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符合题意</p>
+<p>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br>$ f^{\prime}(x) $ 图像如下（此处只展示<code>a</code>的变化并且以<code>0.1</code>为一个跨度:</p>
+<video width="533" height="400" controls>
+  <source src="/videos/myvideo.mp4" type="video/mp4">
+</video>
+
 ]]></content>
       <categories>
-        <category>技术</category>
+        <category>Math</category>
       </categories>
       <tags>
-        <tag>数学</tag>
+        <tag>National Higher Education Entrance Examination</tag>
       </tags>
   </entry>
 </search>
