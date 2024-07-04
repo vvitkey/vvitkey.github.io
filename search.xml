@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2017年普通高等学校招生全国统一考试（21题）</title>
-    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
-    <content><![CDATA[<h2 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h2><span id="more"></span>
+    <title>2024年全新高考I卷</title>
+    <url>/2024/06/11/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%80%E5%8D%B7%20%E6%95%B0%E5%AD%A6%E9%A2%98/</url>
+    <content><![CDATA[<h3 id="来自2024年普通高等学校招生全国统一考试"><a href="#来自2024年普通高等学校招生全国统一考试" class="headerlink" title="来自2024年普通高等学校招生全国统一考试"></a>来自2024年普通高等学校招生全国统一考试</h3><span id="more"></span>
 
-<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>(1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>(2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
-<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符题意<br><br>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符题意<br><br>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br>$ f^{\prime}(x) $ 图像如下（此处只展示<code>a</code>的变化并且以<code>0.1</code>为一个跨度）:<br><video width="666" height="500" controls><br>  <source src="/videos/myvideo.mp4" type="video/mp4"><br></video></p>
-<p>$ f(x) $ 在 （$ 0&lt;x&lt;a $）单减，在 （$ x&gt;a $）单增，并且在 $ x&#x3D;a $ 取得极小值，又 $ f(x) \geqslant 0 $<br>带入<code>a</code>，$ a-1-a\ln{a} &#x3D;0 → a &#x3D; 0 $</p>
-<p>$ f(x) $ 随着<code>a</code>的变化图像如下<br><video width="666" height="500" controls><br>  <source src="/videos/2.mp4" type="video/mp4"><br></video></p>
-<p>(2）<br>这里考虑基本缩放 $ \ln{x} + 1 \leqslant x $<br><br><br><img data-src="/images/2.png" alt="描述" height="500px"><br>如果记不住本题第一问也提示了<br><br>当 $ a&#x3D;1 $ 的时候 $ f(x) \geqslant 0 $，得到 $ x-1 \geqslant \ln{x} $， 令 $ x&#x3D;x+1 →\ln{(x+1)}\leqslant x $<br><br><br>两边同时取对数<br><br>$ \ln{(1+\frac{1}{2} )} + \ln{(1+\frac{1}{2^{2}})} +···+ \ln{(1+\frac{1}{2^{n}})} \leqslant \frac{1}{2} + \frac{1}{2^{2}} +···+ \frac{1}{2^{n}} &#x3D; 1- \frac{1}{2^{n}} \leqslant 1$<br><br><br>则 $ (1+\frac{1}{2} )(1+\frac{1}{2^{2}})···（1+ \frac{1}{2^{n}}）\leqslant e $<br><br><br><code>m</code>最小值为<code>3</code>。</p>
+<h2 id="2024年全新高考I卷-数学16题"><a href="#2024年全新高考I卷-数学16题" class="headerlink" title="2024年全新高考I卷 数学16题"></a>2024年全新高考I卷 数学16题</h2><p>已知 $ A(0，3) $，和 $ P(3，\frac{3}{2}) $ 为椭圆 $ C：\frac{x^{2} }{a^{2} } +\frac{y^{2} }{b^{2}} &#x3D;1（a&gt; b&gt; 0）$ 上两点。<br><br><br>（1）求 $ C $ 的离心率；；<br><br><br>（2）若过 $ P $ 的直线 $ l $ 交 $ C $ ，于另一点 $ B $ ，且 $ △ABP $ 的面积为9，求 $ l $ 方程；</p>
+<h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
+<p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值</p>
+<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="500px">
+
+<p>此时 $ g(x) &#x3D; -1 $ </p>
+<p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
+<p>(2）<br>定义域（ $ 0 $，$ 2 $ ），关于 $ x&#x3D;1 $ 对称，假设 $ f(x) $ 关于点 （ $ 1 $，$ m $ ）对称，则<br><br><br>$ f(x)+f(2-x)&#x3D; \ln{\frac{x}{2-x} } +ax+b(x-1)^{3}+\ln_{}{\frac{2-x}{x} } +a(2-x)+b(1-x)^{3} &#x3D; ax+2a-ax &#x3D; 2a $<br><br><br>则函数关于（ $ 1 $，$ a $ ）中心对称。</p>
+<p><code>中心对称的结论：当函数</code> $ f(x) $ <code>关于</code> $ (a，b) $ <code>对称</code>，<code>则</code> $ f(x)+f(2a-x)&#x3D;2b $</p>
+<p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
+<p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
+<p><br><br><br>\</p>
+<h2 id="2024年全新高考I卷-数学18题-1"><a href="#2024年全新高考I卷-数学18题-1" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>设 $ m $ 为正整数，数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是公差不为 $ 0 $ 的等差数列，若从中删去两项 $ a_i $ 和 $ a_j $ （ $ i $ &lt; $ j $ ）后剩余的 $4m$ 项可被平均分为 $ m $ 组，且每组的4个数都能构成等差数列，则称数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （ $ i $，$ j $ ）—可分数列。<br><br><br>（1）写出所有 （ $ i $，$ j $ ）, $1≤i＜j≤6 $ ，使得 $ a_1， a_2, ··· ， a_6 $ 是 （ $ i $，$ j $ ） —可分数列；<br><br><br>（2）当 $ m ≥3 $ 时，证明：数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ 2 $, $ 13 $ ）—可分数列；<br><br><br>（3）从 $ 1， 2，··· ， 4m+2 $ 中一次任取两个数 $ i $ 和 $ j $ （$ i＜j $ ），记数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ i $ ，$ j $ ） —可分数列的概率为 $ P_m $ ，证明：$ P_m＞\frac{1}{8} $ </p>
+<p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -19,23 +28,15 @@
       </tags>
   </entry>
   <entry>
-    <title>2024年全新高考I卷</title>
-    <url>/2024/06/11/2024%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%80%E5%8D%B7%20%E6%95%B0%E5%AD%A6%E9%A2%98/</url>
-    <content><![CDATA[<h3 id="来自2024年普通高等学校招生全国统一考试"><a href="#来自2024年普通高等学校招生全国统一考试" class="headerlink" title="来自2024年普通高等学校招生全国统一考试"></a>来自2024年普通高等学校招生全国统一考试</h3><span id="more"></span>
+    <title>2017年普通高等学校招生全国统一考试（21题）</title>
+    <url>/2024/06/26/2017%E5%B9%B4%E5%85%A8%E5%9B%BD%E4%B8%99%E5%8D%B7%E6%95%B0%E5%AD%A621%E9%A2%98/</url>
+    <content><![CDATA[<h2 id="来自2017年普通高等学校招生全国统一考试（21题）"><a href="#来自2017年普通高等学校招生全国统一考试（21题）" class="headerlink" title="来自2017年普通高等学校招生全国统一考试（21题）"></a>来自2017年普通高等学校招生全国统一考试（21题）</h2><span id="more"></span>
 
-<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>设 $ m $ 为正整数，数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是公差不为 $ 0 $ 的等差数列，若从中删去两项 $ a_i $ 和 $ a_j $ （ $ i $ &lt; $ j $ ）后剩余的 $4m$ 项可被平均分为 $ m $ 组，且每组的4个数都能构成等差数列，则称数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （ $ i $，$ j $ ）—可分数列。<br><br><br>（1）写出所有 （ $ i $，$ j $ ）, $1≤i＜j≤6 $ ，使得 $ a_1， a_2, ··· ， a_6 $ 是 （ $ i $，$ j $ ） —可分数列；<br><br><br>（2）当 $ m ≥3 $ 时，证明：数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ 2 $, $ 13 $ ）—可分数列；<br><br><br>（3）从 $ 1， 2，··· ， 4m+2 $ 中一次任取两个数 $ i $ 和 $ j $ （$ i＜j $ ），记数列 $ a_1， a_2, ··· ， a_{4m+2} $ 是 （$ i $ ，$ j $ ） —可分数列的概率为 $ P_m $ ，证明：$ P_m＞\frac{1}{8} $ </p>
-<p><strong>解</strong>：<br>(1）易得 （ $ 1 $，$ 2 $ ）、（ $ 5 $，$ 6 $ ）、（ $ 1 $，$ 6 $ ）</p>
-<h2 id="2024年全新高考I卷-数学18题"><a href="#2024年全新高考I卷-数学18题" class="headerlink" title="2024年全新高考I卷 数学18题"></a>2024年全新高考I卷 数学18题</h2><p>已知函数 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax+b(x-1)^{3} $<br><br><br>（1）若 $ b&#x3D;0 $ ，且 $ f^{\prime}(x) \geqslant 0 $ ，求 $ a $ 的最小值；<br><br><br>（2）证明：曲线 $ y&#x3D;f(x) $ 是中心对称图形；<br><br><br>（3）若 $ f(x)&gt;-2 $ 当且仅当 $ 1&lt;x&lt;2 $，求 $ b $ 的取值范围。</p>
-<p><strong>解</strong>：<br>(1）<br>函数定义域为 （ $ 0 $，$ 2 $ ）。<br>由题意得，b&#x3D;0，则 $ f(x) &#x3D; \ln_{}{\frac{x}{2-x} } +ax $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}+a&#x3D;\frac{2}{x(2-x)}+a  \geqslant 0 \longrightarrow a \geqslant \frac{2}{x(x-2)} $<br><br><br>设 $ g(x) &#x3D; x(x-2) $ 在 $ 0&lt;x&lt;2 $ 时 $ g(x) $ 在 $ x &#x3D; 1 $ 时取得最小值</p>
-<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="650px">
-
-<p>此时 $ g(x) &#x3D; -1 $ </p>
-<p>综上所述 $ a \geqslant -2 $ 得 $ a $ 的最小值为<code>-2</code>。</p>
-<p>(2）<br>定义域（ $ 0 $，$ 2 $ ），关于 $ x&#x3D;1 $ 对称，假设 $ f(x) $ 关于点 （ $ 1 $，$ m $ ）对称，则<br><br><br>$ f(x)+f(2-x)&#x3D; \ln{\frac{x}{2-x} } +ax+b(x-1)^{3}+\ln_{}{\frac{2-x}{x} } +a(2-x)+b(1-x)^{3} &#x3D; ax+2a-ax &#x3D; 2a $<br><br><br>则函数关于（ $ 1 $，$ a $ ）中心对称。</p>
-<p><code>中心对称的结论：当函数</code> $ f(x) $ <code>关于</code> $ (a，b) $ <code>对称</code>，<code>则</code> $ f(x)+f(2a-x)&#x3D;2b $</p>
-<p>(3）<br>易知 $ f(1) &#x3D; -2 $ ，则 $ a &#x3D; -2 $ （中心对称）</p>
-<p>得 $ f(x) &#x3D; \ln{\frac{x}{2-x} } -2x+b(x-1)^{3} $<br><br><br>$ f^{\prime}(x) &#x3D; \frac{2-x}{x}·\frac{2-x+x}{(2-x)^{2}}-2+3b(x-1)^2&#x3D;\frac{2}{x(2-x)}-2 +3b(x-1)^2 &#x3D; \frac{2(x-1)^{2}}{x(2-x)} + 3b(x-1)^2 &#x3D; (x-1)^{2} (\frac{2}{x(2-x)} +3b) $<br><br><br>令 $ g(x) &#x3D; \frac{2}{x(2-x)} $ 易得 $ g(x) &#x3D; \frac{2}{x(2-x)} &gt; 2 $<br><br><br>①当 $ b \geqslant -\frac{2}{3} $ 时，$ f^{\prime}(x) &gt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单增， $ f(x) &gt; f(1) &#x3D; -2 $<br><br><br>②当 $ b &lt; -\frac{2}{3} $ 时, $ f^{\prime}(x) &lt; 0 $ 则 $ f(x) $ 在 （ $ 1 $，$ 2 $ ）上单减， $ f(x) &lt; f(1) &#x3D; -2 $<br><br><br>综上所述 $ b \geqslant -\frac{2}{3} $</p>
-<p><br><br><br>\</p>
+<h2 id="题目如下"><a href="#题目如下" class="headerlink" title="题目如下"></a>题目如下</h2><p>已知函数 $ f(x) &#x3D; x - 1 -a\ln{x} $<br><br><br>(1） $ f(x) \geqslant 0 $ ，求 $ a $ 的值。<br><br><br>(2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
+<p><strong>解：</strong><br>(1）<br>定义域（ $ x&gt;0 $）<br>$ f^{\prime}(x) &#x3D; 1 - \frac{a}{x} $<br><br><br>① 当（ $ a&gt;0 $）时，<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) → -\infty $，不符题意<br><br>② 当（ $ a&#x3D;0 $）时<br>$ f^{\prime}(x) &gt; 0 $，$ f(x) 单增 $，$ f(x) &#x3D; 1-x $，存在 $ 0&lt;x&lt;1 $ ，使得 $ f(x) &lt; 0 $ ，不符题意<br><br>③ 当（ $ a&lt;0 $）时，令 $ f^{\prime}(x) &#x3D; 0 $ ，得 $ x &#x3D; a $<br><br>$ f^{\prime}(x) $ 图像如下（此处只展示<code>a</code>的变化并且以<code>0.1</code>为一个跨度）:<br><video width="666" height="500" controls><br>  <source src="/videos/myvideo.mp4" type="video/mp4"><br></video></p>
+<p>$ f(x) $ 在 （$ 0&lt;x&lt;a $）单减，在 （$ x&gt;a $）单增，并且在 $ x&#x3D;a $ 取得极小值，又 $ f(x) \geqslant 0 $<br>带入<code>a</code>，$ a-1-a\ln{a} &#x3D;0 → a &#x3D; 0 $</p>
+<p>题外话：$ f(x) $ 随着<code>a</code>的变化图像如下<br><video width="666" height="500" controls><br>  <source src="/videos/2.mp4" type="video/mp4"><br></video></p>
+<p>(2）<br>这里考虑基本缩放 $ \ln({x} + 1) \leqslant x $<br><br><br><img data-src="/images/2.png" alt="描述" height="500px"><br>如果记不住本题第一问也提示了<br><br>当 $ a&#x3D;1 $ 的时候 $ f(x) \geqslant 0 $，得到 $ x-1 \geqslant \ln{x} $， 令 $ x&#x3D;x+1 →\ln{(x+1)}\leqslant x $<br><br><br>两边同时取对数<br><br>$ \ln{(1+\frac{1}{2} )} + \ln{(1+\frac{1}{2^{2}})} +···+ \ln{(1+\frac{1}{2^{n}})} \leqslant \frac{1}{2} + \frac{1}{2^{2}} +···+ \frac{1}{2^{n}} &#x3D; 1- \frac{1}{2^{n}} \leqslant 1$<br><br><br>则 $ (1+\frac{1}{2} )(1+\frac{1}{2^{2}})···（1+ \frac{1}{2^{n}}）\leqslant e $<br><br><br><code>m</code>最小值为<code>3</code>。</p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -76,14 +77,7 @@
 
 <p>注意这里可以在github库里直接复制，不要看到前端就以为https部分不一样，后面还有一个<code>:</code>，博主在这卡了很久；<br>做了这点就需要做SSH(绑定电脑至github，通过SSH上传)</p>
 <p><img data-src="https://s2.loli.net/2024/04/26/19JXDyilVuObP8G.png" alt="WX20240426-151332@2x.png"></p>
-<video src="/videos/myvideo.mp4" preload="metadata" controls playsinline poster="">Sorry, your browser does not support the video tag.</video>
-
-<video width="400" height="300" controls>
-  <source src="/videos/myvideo.mp4" type="video/mp4">
-</video>
-
-<img data-src="/images/as85exRrCTMuqN6.png" alt="描述" height="300px">
-
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">&#123;% video /videos/myvideo.mp4 %&#125;</span><br><span class="line"></span><br><span class="line">&lt;video width=<span class="string">&quot;666&quot;</span> height=<span class="string">&quot;500&quot;</span> controls&gt;</span><br><span class="line">  &lt;source src=<span class="string">&quot;/videos/myvideo.mp4&quot;</span> <span class="built_in">type</span>=<span class="string">&quot;video/mp4&quot;</span>&gt;</span><br><span class="line">&lt;/video&gt;</span><br><span class="line"></span><br><span class="line">&lt;img src=<span class="string">&quot;/images/as85exRrCTMuqN6.png&quot;</span> alt=<span class="string">&quot;描述&quot;</span> height=<span class="string">&quot;500px&quot;</span>&gt;</span><br></pre></td></tr></table></figure>
 
 
 
@@ -110,6 +104,21 @@
       </categories>
       <tags>
         <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一些导数题</title>
+    <url>/2024/07/03/%E4%B8%80%E4%BA%9B%E5%AF%BC%E6%95%B0%E9%A2%98/</url>
+    <content><![CDATA[<p>敬请期待</p>
+<span id="more"></span>
+
+<h2 id="题目如下（来此2021宁波十校期中）"><a href="#题目如下（来此2021宁波十校期中）" class="headerlink" title="题目如下（来此2021宁波十校期中）"></a>题目如下（来此2021宁波十校期中）</h2><p>已知函数 $ f(x) &#x3D;  -\ln{x}+x-2a $ ，$ a ∈ R $<br><br><br>(1） $ f(x) \geqslant 0 $ ，求 $ a $ 。<br><br><br>(2） 设整数 $ m $ ，且对于任意正整数 $ m $ ，$ (1+\frac{1}{2})(1+\frac{1}{2^{2}}） \cdots (1+\frac{1}{2^{n}}）&lt; m $ ，求m最小值。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>National Higher Education Entrance Examination</tag>
       </tags>
   </entry>
   <entry>
