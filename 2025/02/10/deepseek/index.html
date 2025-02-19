@@ -22,18 +22,18 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"hide","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":true,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题，包含数个……">
+  <meta name="description" content="AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题，包含数个问题解决……">
 <meta property="og:type" content="article">
 <meta property="og:title" content="deepseek 部署">
 <meta property="og:url" content="http://example.com/2025/02/10/deepseek/index.html">
 <meta property="og:site_name" content="vvitkey&#39;s blog">
-<meta property="og:description" content="AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题，包含数个……">
+<meta property="og:description" content="AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题，包含数个问题解决……">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://example.com/images/deepseek%20%E6%88%AA%E5%9B%BE.png">
 <meta property="og:image" content="http://example.com/images/r1.png">
 <meta property="og:image" content="http://example.com/images/%E7%BB%88%E7%AB%AF.png">
 <meta property="article:published_time" content="2025-02-10T09:39:21.000Z">
-<meta property="article:modified_time" content="2025-02-19T14:57:48.184Z">
+<meta property="article:modified_time" content="2025-02-19T15:05:34.478Z">
 <meta property="article:author" content="vvitkey">
 <meta property="article:tag" content="deepseek">
 <meta name="twitter:card" content="summary">
@@ -230,7 +230,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-02-19 22:57:48" itemprop="dateModified" datetime="2025-02-19T22:57:48+08:00">2025-02-19</time>
+                <time title="修改时间：2025-02-19 23:05:34" itemprop="dateModified" datetime="2025-02-19T23:05:34+08:00">2025-02-19</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -255,7 +255,7 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>536</span>
+              <span>416</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
@@ -274,22 +274,21 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题，包含数个……</p>
+        <p><strong>AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题，包含数个问题解决……</strong></p>
 <span id="more"></span>
 
-<p>温馨提示<br>以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</p>
-<p>AI市场日渐扩大，国内也出了似Chatgpt类似的AI引擎，这里想简单说明一下本地部署的问题~</p>
-<!--more-->
-
-<p>温馨提示<br>以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</p>
-<p><br>\</p>
+<p><font color="#ff0000">温馨提示</font><br><font color="#ff0000">以下操作均在macOS进行，可能无需像Windows一样配置相应环境~</font></p>
 <h3 id="1-安装-ollama"><a href="#1-安装-ollama" class="headerlink" title="1.安装 ollama"></a>1.安装 ollama</h3><p>我们首先到 <a target="_blank" rel="noopener" href="https://ollama.com/">ollama</a> 官方首页，点击下载安装即可</p>
 <h3 id="2-安装模型"><a href="#2-安装模型" class="headerlink" title="2.安装模型"></a>2.安装模型</h3><h5 id="找到-DeepSeek-R1-点击进入-DeepSeek-模型的下载主页"><a href="#找到-DeepSeek-R1-点击进入-DeepSeek-模型的下载主页" class="headerlink" title="找到 DeepSeek-R1 点击进入 DeepSeek 模型的下载主页"></a>找到 <code>DeepSeek-R1</code> 点击进入 <code>DeepSeek</code> 模型的下载主页</h5><img data-src="/images/deepseek 截图.png" alt="描述" height="500px">
 
-<p>![[deepseek 截图.png|400]]</p>
-<p><code>DeepSeek-R1</code> 目前主要有 <code>1.5b</code> <code>7b</code> <code>8b</code> <code>14b</code> <code>32b</code> <code>70b</code> <code>671b</code>，这几种不同量级的开源模型<br>数字后面的 <code>b</code> 是英文 <code>billion</code> 也就是十亿的首字母，整体代表的模型的参数量。参数量越大得到回答的质量也就越高，但参数越大所需要的 <code>GPU</code> 资源也就越多<br>如果电脑没有独立显卡那就选择 <code>1.5b</code> 版本<br>有独立显卡但是显存在 <code>4G</code> 或 <code>8G</code> 左右，可以选择 <code>7b</code> <code>8b</code></p>
-<h5 id="点击自己需要的版本"><a href="#点击自己需要的版本" class="headerlink" title="点击自己需要的版本"></a>点击自己需要的版本</h5><p><br><br><img data-src="/images/r1.png" alt="描述" height="500px"><br><br><br>在终端中运行<br><br><br><img data-src="/images/终端.png" alt="描述" height="500px"></p>
-<p>![[终端.png|400]]</p>
+
+<p><code>DeepSeek-R1</code> 目前主要有 <code>1.5b</code> <code>7b</code> <code>8b</code> <code>14b</code> <code>32b</code> <code>70b</code> <code>671b</code>，这几种不同量级的开源模型<br>数字后面的 <code>b</code> 是英文 <code>billion</code> 也就是十亿的首字母，整体代表的模型的参数量<br>参数量越大得到回答的质量也就越高，但参数越大所需要的 <code>GPU</code> 资源也就越多<br>如果电脑没有独立显卡那就选择 <code>1.5b</code> 版本<br>有独立显卡但是显存在<code>4G</code>或<code>8G</code>左右，可以选择<code>7b``8b</code></p>
+<h5 id="点击自己需要的版本"><a href="#点击自己需要的版本" class="headerlink" title="点击自己需要的版本"></a>点击自己需要的版本</h5><img data-src="/images/r1.png" alt="描述" height="390px">
+
+<p>在终端中运行</p>
+<img data-src="/images/终端.png" alt="描述" height="350px">
+
+
 <p>等待 <code>success</code> 字样即可，但这个时候只能用使用命令行进行提问作答，无法像网页一样清晰明了，我们现在需要一个工具 <a target="_blank" rel="noopener" href="https://chatboxai.app/zh">Chatbox</a></p>
 
     </div>
